@@ -135,9 +135,6 @@ Matrix<T> getRotation(std::vector<Vector<T>>& startPoints, std::vector<Vector<T>
 }
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
     size_t n;
     std::cin >> n;
 
