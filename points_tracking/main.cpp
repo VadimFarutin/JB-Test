@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stddef.h>
 #include <algorithm>
 #include <vector>
 
@@ -25,7 +26,7 @@ std::vector<size_t> prefixFunction(const std::vector<Vector<T>>& s) {
 }
 
 template <typename T>
-std::vector<Vector<T>> readPoints(int n) {
+std::vector<Vector<T>> readPoints(size_t n) {
     std::vector<Vector<T>> points;
     points.reserve(n);
     double x, y;
