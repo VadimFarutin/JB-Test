@@ -1,5 +1,5 @@
 # Generated graph
-*.csv
+# *.csv
 
 # GitHub auth tokens
 auth
