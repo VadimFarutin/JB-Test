@@ -228,6 +228,7 @@ class CodeAnalyzer:
         self.analyze_mi()
         self.analyze_halstead()
         self.analyze_cohesion()
+        self.analyze_wemake_styleguide()
     
     
 def main():
