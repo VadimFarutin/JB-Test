@@ -8,6 +8,7 @@ from cohesion import module
 import argparse
 import sys
 import os
+from collections import defaultdict
 # import tqdm
 
 
@@ -163,8 +164,8 @@ class CodeAnalyzer:
             self.log(f"======== Volume > {HAL_VOLUME_TRESHOLD}, Difficulty > {HAL_DIFFICULTY_TRESHOLD}, Bugs > {HAL_BUGS_TRESHOLD}")
             self.log(f"================")
             self.log("")
-        for i, (filename, funcname, volume, difficulty, bugs) in enumerate(halstead_metrics):
-            self.log(f"#{i + 1} File: {filename}\n\tFunction: {funcname}\n\tVolume: {volume}, Difficulty: {difficulty}, Bugs: {bugs}")
+            for i, (filename, funcname, volume, difficulty, bugs) in enumerate(halstead_metrics):
+                self.log(f"#{i + 1} File: {filename}\n\tFunction: {funcname}\n\tVolume: {volume}, Difficulty: {difficulty}, Bugs: {bugs}")
 
     def analyze_cohesion(self):
         file_modules = {
@@ -188,10 +189,41 @@ class CodeAnalyzer:
             self.log(f"======== Classes with cohesion < {COHESION_TRESHOLD}%")
             self.log(f"================")
             self.log("")
-        for i, (filename, class_name, cohesion) in enumerate(low_cohesion):
-            self.log(f"#{i + 1} File: {filename}\n\tClass: {class_name}\n\tCohesion: {cohesion}%")
+            for i, (filename, class_name, cohesion) in enumerate(low_cohesion):
+                self.log(f"#{i + 1} File: {filename}\n\tClass: {class_name}\n\tCohesion: {cohesion}%")
 
-    def analyze_all():
+    def analyze_wemake_styleguide(self):
+        errors = defaultdict(lambda: [])
+        
+        for filename in self.paths:
+            try:
+                stream = os.popen(f"flake8 {filename}")
+                for line in stream.readlines():
+                    position, error = line.split(" ", 1)
+                    position = self.crop_file(position)
+                    positions = errors[error]
+                    positions.append(position)
+                    errors[error] = positions
+            except Exception:
+                pass
+                
+        self.log("")
+        if len(errors) == 0:
+            self.log(f"================")
+            self.log(f"======== No flake8 errors")
+            self.log(f"================")
+        else:
+            self.log(f"================")
+            self.log(f"======== flake8 errors")
+            self.log(f"================")
+            self.log("")
+            for i, (error, positions) in enumerate(errors.items()):
+                self.log(f"#{i + 1} Error: {error}")
+                for position in positions:
+                    self.log(f"\t{position}")
+                self.log(f"")
+
+    def analyze_all(self):
         self.analyze_complexity()
         self.analyze_mi()
         self.analyze_halstead()
@@ -211,6 +243,7 @@ def main():
     analyzer.analyze_mi()
     analyzer.analyze_halstead()
     analyzer.analyze_cohesion()
+    analyzer.analyze_wemake_styleguide()
     
 
 if __name__ == "__main__":

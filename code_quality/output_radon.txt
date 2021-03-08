@@ -303,3 +303,4179 @@
 #12 File: \radon\tests\data/no_encoding.py
 	Class: Foo
 	Cohesion: 0.0%
+
+================
+======== flake8 errors
+================
+
+#1 Error: D100 Missing docstring in public module
+
+	/setup.py:1:1:
+	\docs/conf.py:1:1:
+	\radon\contrib/flake8.py:1:1:
+	\radon\tests/conftest.py:1:1:
+	\radon\tests/run.py:1:1:
+	\radon\tests/test_cli.py:1:1:
+	\radon\tests/test_cli_harvest.py:1:1:
+	\radon\tests/test_cli_tools.py:1:1:
+	\radon\tests/test_complexity_utils.py:1:1:
+	\radon\tests/test_complexity_visitor.py:1:1:
+	\radon\tests/test_halstead.py:1:1:
+	\radon\tests/test_ipynb.py:1:1:
+	\radon\tests/test_other_metrics.py:1:1:
+	\radon\tests/test_raw.py:1:1:
+	\radon\tests\data/no_encoding.py:1:1:
+	\radon\tests\data/py3unicode.py:1:1:
+
+#2 Error: I001 isort found an import in the wrong position
+
+	/setup.py:2:1:
+	\docs/conf.py:17:1:
+	\radon/__init__.py:10:1:
+	\radon\cli/harvest.py:9:1:
+	\radon\cli/harvest.py:10:1:
+	\radon\cli/harvest.py:11:1:
+	\radon\cli/harvest.py:12:1:
+	\radon\cli/harvest.py:13:1:
+	\radon\cli/harvest.py:14:1:
+	\radon\cli/harvest.py:15:1:
+	\radon\cli/harvest.py:16:1:
+	\radon\cli/harvest.py:17:1:
+	\radon\cli/harvest.py:18:1:
+	\radon\cli/harvest.py:19:1:
+	\radon\cli/harvest.py:20:1:
+	\radon\cli/harvest.py:21:1:
+	\radon\cli/harvest.py:22:1:
+	\radon\cli/harvest.py:23:1:
+	\radon\cli/harvest.py:24:1:
+	\radon\cli/harvest.py:25:1:
+	\radon\cli/__init__.py:10:1:
+	\radon\cli/__init__.py:12:1:
+	\radon\cli/__init__.py:13:1:
+	\radon\cli/__init__.py:14:1:
+	\radon\cli/__init__.py:15:1:
+	\radon\cli/__init__.py:16:1:
+	\radon\cli/__init__.py:17:1:
+	\radon\tests/test_cli.py:10:1:
+	\radon\tests/test_cli.py:11:1:
+	\radon\tests/test_cli.py:12:1:
+	\radon\tests/test_cli.py:13:1:
+	\radon\tests/test_cli.py:14:1:
+	\radon\tests/test_cli.py:15:1:
+	\radon\tests/test_ipynb.py:7:1:
+	\radon\tests/test_ipynb.py:8:1:
+	\radon\tests/test_ipynb.py:9:1:
+	\radon\tests/test_ipynb.py:10:1:
+	\radon\tests/test_ipynb.py:11:1:
+	\radon\tests/test_ipynb.py:12:1:
+	\radon\tests/test_ipynb.py:13:1:
+
+#3 Error: I003 isort expected 1 blank line in imports, found 0
+
+	/setup.py:3:1:
+	\docs/conf.py:18:1:
+	\radon/__init__.py:11:1:
+
+#4 Error: I004 isort found an unexpected blank line in imports
+
+	/setup.py:4:1:
+	\radon\cli/__init__.py:9:1:
+	\radon\contrib/flake8.py:2:1:
+	\radon\tests/test_cli.py:6:1:
+	\radon\tests/test_cli_harvest.py:7:1:
+	\radon\tests/test_cli_tools.py:8:1:
+	\radon\tests/test_complexity_utils.py:5:1:
+	\radon\tests/test_complexity_visitor.py:5:1:
+	\radon\tests/test_halstead.py:5:1:
+	\radon\tests/test_ipynb.py:5:1:
+	\radon\tests/test_other_metrics.py:4:1:
+	\radon\tests/test_raw.py:4:1:
+
+#5 Error: I005 isort found an unexpected missing import
+
+	/setup.py:5:1:
+	\radon/__init__.py:11:1:
+	\radon\cli/harvest.py:26:1:
+	\radon\cli/harvest.py:26:1:
+	\radon\cli/harvest.py:26:1:
+	\radon\cli/harvest.py:26:1:
+	\radon\cli/harvest.py:26:1:
+	\radon\cli/harvest.py:26:1:
+	\radon\cli/__init__.py:18:1:
+	\radon\cli/__init__.py:18:1:
+	\radon\tests/test_cli.py:16:1:
+	\radon\tests/test_cli.py:16:1:
+	\radon\tests/test_ipynb.py:14:1:
+	\radon\tests/test_ipynb.py:14:1:
+
+#6 Error: WPS317 Found incorrect multi-line parameters
+
+	/setup.py:9:1:
+	\docs/conf.py:18:36:
+	\docs/conf.py:51:53:
+	\docs/conf.py:52:57:
+	\docs/conf.py:195:4:
+	\docs/conf.py:225:6:
+	\docs/conf.py:239:4:
+	\docs/conf.py:239:4:
+	\radon\cli/harvest.py:243:17:
+	\radon\cli/harvest.py:248:17:
+	\radon\cli/harvest.py:291:17:
+	\radon\cli/harvest.py:296:17:
+	\radon\cli/harvest.py:301:17:
+	\radon\cli/harvest.py:315:17:
+	\radon\cli/harvest.py:320:17:
+	\radon\tests/test_cli_harvest.py:215:13:
+	\radon\tests/test_complexity_visitor.py:629:0:
+	\radon\tests/test_complexity_visitor.py:645:0:
+
+#7 Error: WPS318 Found extra indentation
+
+	/setup.py:10:7:
+	\docs/conf.py:19:49:
+	\docs/conf.py:52:57:
+	\docs/conf.py:53:63:
+	\radon\cli/tools.py:19:31:
+
+#8 Error: C812 missing trailing comma
+
+	/setup.py:60:8:
+	\docs/conf.py:227:30:
+	\radon/complexity.py:43:73:
+	\radon/visitors.py:157:73:
+	\radon/visitors.py:306:69:
+	\radon/visitors.py:384:72:
+	\radon/visitors.py:388:63:
+	\radon\cli/harvest.py:77:64:
+	\radon\cli/harvest.py:100:69:
+	\radon\cli/harvest.py:121:76:
+	\radon\cli/harvest.py:432:34:
+	\radon\cli/harvest.py:436:34:
+	\radon\cli/harvest.py:440:34:
+	\radon\cli/tools.py:57:47:
+	\radon\cli/tools.py:147:47:
+	\radon\cli/tools.py:158:41:
+	\radon\cli/tools.py:281:20:
+	\radon\cli/tools.py:347:32:
+	\radon\cli/tools.py:415:18:
+	\radon\cli/tools.py:426:71:
+	\radon\cli/tools.py:430:42:
+	\radon\cli/tools.py:433:63:
+	\radon\cli/tools.py:447:26:
+	\radon\cli/tools.py:599:72:
+	\radon\cli/__init__.py:41:59:
+	\radon\cli/__init__.py:45:59:
+	\radon\cli/__init__.py:49:59:
+	\radon\contrib/flake8.py:67:48:
+	\radon\tests/test_cli.py:77:12:
+	\radon\tests/test_cli.py:118:17:
+	\radon\tests/test_cli.py:139:64:
+	\radon\tests/test_cli.py:164:65:
+	\radon\tests/test_cli.py:192:77:
+	\radon\tests/test_cli.py:213:10:
+	\radon\tests/test_cli.py:272:82:
+	\radon\tests/test_cli.py:277:10:
+	\radon\tests/test_cli.py:281:66:
+	\radon\tests/test_cli_harvest.py:140:59:
+	\radon\tests/test_cli_tools.py:64:51:
+	\radon\tests/test_cli_tools.py:188:18:
+	\radon\tests/test_cli_tools.py:221:18:
+	\radon\tests/test_cli_tools.py:375:21:
+	\radon\tests/test_cli_tools.py:377:20:
+	\radon\tests/test_cli_tools.py:406:87:
+	\radon\tests/test_cli_tools.py:416:14:
+	\radon\tests/test_cli_tools.py:421:35:
+	\radon\tests/test_cli_tools.py:437:45:
+	\radon\tests/test_cli_tools.py:453:14:
+	\radon\tests/test_cli_tools.py:468:14:
+	\radon\tests/test_cli_tools.py:499:14:
+	\radon\tests/test_complexity_utils.py:41:35:
+	\radon\tests/test_complexity_utils.py:50:56:
+	\radon\tests/test_other_metrics.py:92:18:
+
+#9 Error: E124 closing bracket does not match visual indentation
+
+	/setup.py:61:1:
+
+#10 Error: WPS226 Found string constant over-use: index > 3
+
+	\docs/conf.py:0:1:
+
+#11 Error: E501 line too long (80 > 79 characters)
+
+	\docs/conf.py:6:80:
+	\docs/conf.py:27:80:
+	\docs/conf.py:32:80:
+	\docs/conf.py:34:80:
+	\docs/conf.py:78:80:
+	\docs/conf.py:99:80:
+	\docs/conf.py:180:80:
+	\docs/conf.py:194:80:
+	\docs/conf.py:221:80:
+	\docs/conf.py:234:80:
+	\radon\tests/test_raw.py:426:80:
+
+#12 Error: WPS221 Found line with high Jones Complexity: 19 > 14
+
+	\docs/conf.py:18:1:
+	\radon\tests/test_complexity_utils.py:58:6:
+
+#13 Error: WPS319 Found bracket in wrong position
+
+	\docs/conf.py:19:53:
+	\docs/conf.py:19:54:
+	\docs/conf.py:19:55:
+	\docs/conf.py:53:82:
+	\docs/conf.py:53:83:
+	\docs/conf.py:53:84:
+	\docs/conf.py:53:85:
+	\docs/conf.py:197:32:
+	\docs/conf.py:227:29:
+	\docs/conf.py:242:19:
+	\radon\cli/tools.py:19:39:
+	\radon\cli/tools.py:364:25:
+	\radon\cli/tools.py:379:30:
+
+#14 Error: E402 module level import not at top of file
+
+	\docs/conf.py:20:1:
+
+#15 Error: E265 block comment should start with '# '
+
+	\docs/conf.py:25:1:
+	\docs/conf.py:30:1:
+	\docs/conf.py:43:1:
+	\docs/conf.py:66:1:
+	\docs/conf.py:70:1:
+	\docs/conf.py:72:1:
+	\docs/conf.py:79:1:
+	\docs/conf.py:82:1:
+	\docs/conf.py:86:1:
+	\docs/conf.py:90:1:
+	\docs/conf.py:96:1:
+	\docs/conf.py:109:1:
+	\docs/conf.py:116:1:
+	\docs/conf.py:119:1:
+	\docs/conf.py:123:1:
+	\docs/conf.py:128:1:
+	\docs/conf.py:137:1:
+	\docs/conf.py:141:1:
+	\docs/conf.py:144:1:
+	\docs/conf.py:148:1:
+	\docs/conf.py:151:1:
+	\docs/conf.py:154:1:
+	\docs/conf.py:157:1:
+	\docs/conf.py:160:1:
+	\docs/conf.py:163:1:
+	\docs/conf.py:166:1:
+	\docs/conf.py:171:1:
+	\docs/conf.py:174:1:
+	\docs/conf.py:184:1:
+	\docs/conf.py:187:1:
+	\docs/conf.py:190:1:
+	\docs/conf.py:202:1:
+	\docs/conf.py:206:1:
+	\docs/conf.py:209:1:
+	\docs/conf.py:212:1:
+	\docs/conf.py:215:1:
+	\docs/conf.py:218:1:
+	\docs/conf.py:231:1:
+	\docs/conf.py:246:1:
+	\docs/conf.py:249:1:
+	\docs/conf.py:252:1:
+
+#16 Error: E800 Found commented out code
+
+	\docs/conf.py:25:2:
+	\docs/conf.py:30:2:
+	\docs/conf.py:43:2:
+	\docs/conf.py:66:2:
+	\docs/conf.py:70:2:
+	\docs/conf.py:72:2:
+	\docs/conf.py:79:2:
+	\docs/conf.py:82:2:
+	\docs/conf.py:86:2:
+	\docs/conf.py:90:2:
+	\docs/conf.py:96:2:
+	\docs/conf.py:109:2:
+	\docs/conf.py:116:2:
+	\docs/conf.py:119:2:
+	\docs/conf.py:123:2:
+	\docs/conf.py:128:2:
+	\docs/conf.py:137:2:
+	\docs/conf.py:141:2:
+	\docs/conf.py:144:2:
+	\docs/conf.py:148:2:
+	\docs/conf.py:151:2:
+	\docs/conf.py:154:2:
+	\docs/conf.py:157:2:
+	\docs/conf.py:160:2:
+	\docs/conf.py:163:2:
+	\docs/conf.py:171:2:
+	\docs/conf.py:174:2:
+	\docs/conf.py:184:2:
+	\docs/conf.py:187:2:
+	\docs/conf.py:190:2:
+	\docs/conf.py:202:2:
+	\docs/conf.py:206:2:
+	\docs/conf.py:209:2:
+	\docs/conf.py:212:2:
+	\docs/conf.py:215:2:
+	\docs/conf.py:218:2:
+	\docs/conf.py:231:2:
+	\docs/conf.py:246:2:
+	\docs/conf.py:249:2:
+	\docs/conf.py:252:2:
+	\radon\tests/test_other_metrics.py:148:2:
+	\radon\tests/test_other_metrics.py:149:2:
+	\radon\tests/test_other_metrics.py:150:2:
+	\radon\tests/test_other_metrics.py:154:2:
+	\radon\tests/test_other_metrics.py:155:2:
+	\radon\tests/test_other_metrics.py:156:2:
+
+#17 Error: WPS302 Found unicode string prefix: u'Radon'
+
+	\docs/conf.py:49:11:
+
+#18 Error: WPS221 Found line with high Jones Complexity: 16 > 14
+
+	\docs/conf.py:50:1:
+	\radon/metrics.py:80:5:
+	\radon/metrics.py:136:5:
+	\radon/metrics.py:157:5:
+	\radon\tests/test_cli_harvest.py:365:5:
+	\radon\tests/test_cli_tools.py:573:5:
+	\radon\tests/test_complexity_utils.py:57:6:
+
+#19 Error: E501 line too long (102 > 79 characters)
+
+	\docs/conf.py:50:80:
+
+#20 Error: WPS302 Found unicode string prefix: u'{0}, Michele Lacchia'
+
+	\docs/conf.py:51:13:
+
+#21 Error: WPS432 Found magic number: 2012
+
+	\docs/conf.py:52:63:
+
+#22 Error: E501 line too long (85 > 79 characters)
+
+	\docs/conf.py:53:80:
+
+#23 Error: E122 continuation line missing indentation or outdented
+
+	\docs/conf.py:183:1:
+	\docs/conf.py:184:1:
+	\docs/conf.py:186:1:
+	\docs/conf.py:187:1:
+	\docs/conf.py:189:1:
+	\docs/conf.py:190:1:
+
+#24 Error: WPS302 Found unicode string prefix: u'Radon Documentation'
+
+	\docs/conf.py:196:26:
+	\docs/conf.py:226:24:
+	\docs/conf.py:240:22:
+
+#25 Error: WPS302 Found unicode string prefix: u'Michele Lacchia'
+
+	\docs/conf.py:197:4:
+	\docs/conf.py:227:7:
+	\docs/conf.py:241:4:
+
+#26 Error: D205 1 blank line required between summary line and description
+
+	\radon/complexity.py:1:1:
+	\radon/complexity.py:16:1:
+	\radon/complexity.py:48:1:
+	\radon/complexity.py:60:1:
+	\radon/complexity.py:79:1:
+	\radon/complexity.py:98:1:
+	\radon/complexity.py:105:1:
+	\radon/metrics.py:1:1:
+	\radon/metrics.py:26:1:
+	\radon/metrics.py:33:1:
+	\radon/metrics.py:99:1:
+	\radon/metrics.py:121:1:
+	\radon/raw.py:55:1:
+	\radon/raw.py:63:1:
+	\radon/raw.py:73:1:
+	\radon/raw.py:83:1:
+	\radon/raw.py:97:1:
+	\radon/raw.py:177:1:
+	\radon/raw.py:186:1:
+	\radon/visitors.py:1:1:
+	\radon/visitors.py:56:1:
+	\radon/visitors.py:63:1:
+	\radon/visitors.py:91:1:
+	\radon/visitors.py:98:1:
+	\radon/visitors.py:119:1:
+	\radon/visitors.py:130:1:
+	\radon/visitors.py:137:1:
+	\radon/visitors.py:146:1:
+	\radon/visitors.py:170:1:
+	\radon/visitors.py:180:1:
+	\radon/visitors.py:187:1:
+	\radon/visitors.py:199:1:
+	\radon/visitors.py:250:1:
+	\radon/visitors.py:256:1:
+	\radon/visitors.py:262:1:
+	\radon/visitors.py:291:1:
+	\radon/visitors.py:331:1:
+	\radon/visitors.py:428:1:
+	\radon/visitors.py:450:1:
+	\radon/__init__.py:1:1:
+	\radon\cli/colors.py:1:1:
+	\radon\cli/harvest.py:90:1:
+	\radon\cli/harvest.py:206:1:
+	\radon\cli/tools.py:1:1:
+	\radon\cli/tools.py:36:1:
+	\radon\cli/tools.py:90:1:
+	\radon\cli/tools.py:189:1:
+	\radon\cli/tools.py:216:1:
+	\radon\cli/tools.py:245:1:
+	\radon\cli/tools.py:273:1:
+	\radon\cli/tools.py:294:1:
+	\radon\cli/tools.py:319:1:
+	\radon\cli/tools.py:330:1:
+	\radon\cli/tools.py:384:1:
+	\radon\cli/tools.py:534:1:
+	\radon\cli/__init__.py:90:1:
+	\radon\cli/__init__.py:302:1:
+	\radon\cli/__init__.py:310:1:
+	\radon\cli/__init__.py:386:1:
+
+#27 Error: D300 Use """triple double quotes"""
+
+	\radon/complexity.py:1:1:
+	\radon/complexity.py:16:1:
+	\radon/complexity.py:48:1:
+	\radon/complexity.py:60:1:
+	\radon/complexity.py:79:1:
+	\radon/complexity.py:98:1:
+	\radon/complexity.py:105:1:
+	\radon/metrics.py:1:1:
+	\radon/metrics.py:26:1:
+	\radon/metrics.py:33:1:
+	\radon/metrics.py:99:1:
+	\radon/metrics.py:121:1:
+	\radon/metrics.py:146:1:
+	\radon/metrics.py:151:1:
+	\radon/raw.py:1:1:
+	\radon/raw.py:55:1:
+	\radon/raw.py:63:1:
+	\radon/raw.py:73:1:
+	\radon/raw.py:83:1:
+	\radon/raw.py:97:1:
+	\radon/raw.py:123:1:
+	\radon/raw.py:152:1:
+	\radon/raw.py:177:1:
+	\radon/raw.py:186:1:
+	\radon/visitors.py:1:1:
+	\radon/visitors.py:43:1:
+	\radon/visitors.py:52:1:
+	\radon/visitors.py:56:1:
+	\radon/visitors.py:63:1:
+	\radon/visitors.py:73:1:
+	\radon/visitors.py:85:1:
+	\radon/visitors.py:91:1:
+	\radon/visitors.py:98:1:
+	\radon/visitors.py:107:1:
+	\radon/visitors.py:119:1:
+	\radon/visitors.py:125:1:
+	\radon/visitors.py:130:1:
+	\radon/visitors.py:137:1:
+	\radon/visitors.py:146:1:
+	\radon/visitors.py:170:1:
+	\radon/visitors.py:180:1:
+	\radon/visitors.py:187:1:
+	\radon/visitors.py:199:1:
+	\radon/visitors.py:211:1:
+	\radon/visitors.py:216:1:
+	\radon/visitors.py:221:1:
+	\radon/visitors.py:250:1:
+	\radon/visitors.py:256:1:
+	\radon/visitors.py:262:1:
+	\radon/visitors.py:291:1:
+	\radon/visitors.py:331:1:
+	\radon/visitors.py:345:1:
+	\radon/visitors.py:357:1:
+	\radon/visitors.py:362:1:
+	\radon/visitors.py:366:1:
+	\radon/visitors.py:377:1:
+	\radon/visitors.py:399:1:
+	\radon/visitors.py:404:1:
+	\radon/visitors.py:409:1:
+	\radon/visitors.py:414:1:
+	\radon/visitors.py:419:1:
+	\radon/visitors.py:428:1:
+	\radon/visitors.py:450:1:
+	\radon/__init__.py:1:1:
+	\radon/__init__.py:8:1:
+	\radon\cli/colors.py:1:1:
+	\radon\cli/harvest.py:1:1:
+	\radon\cli/harvest.py:43:1:
+	\radon\cli/harvest.py:64:1:
+	\radon\cli/harvest.py:75:1:
+	\radon\cli/harvest.py:81:1:
+	\radon\cli/harvest.py:90:1:
+	\radon\cli/harvest.py:132:1:
+	\radon\cli/harvest.py:141:1:
+	\radon\cli/harvest.py:151:1:
+	\radon\cli/harvest.py:155:1:
+	\radon\cli/harvest.py:159:1:
+	\radon\cli/harvest.py:163:1:
+	\radon\cli/harvest.py:167:1:
+	\radon\cli/harvest.py:176:1:
+	\radon\cli/harvest.py:179:1:
+	\radon\cli/harvest.py:186:1:
+	\radon\cli/harvest.py:202:1:
+	\radon\cli/harvest.py:206:1:
+	\radon\cli/harvest.py:212:1:
+	\radon\cli/harvest.py:216:1:
+	\radon\cli/harvest.py:220:1:
+	\radon\cli/harvest.py:256:1:
+	\radon\cli/harvest.py:269:1:
+	\radon\cli/harvest.py:273:1:
+	\radon\cli/harvest.py:277:1:
+	\radon\cli/harvest.py:336:1:
+	\radon\cli/harvest.py:339:1:
+	\radon\cli/harvest.py:346:1:
+	\radon\cli/harvest.py:360:1:
+	\radon\cli/harvest.py:364:1:
+	\radon\cli/harvest.py:368:1:
+	\radon\cli/harvest.py:414:1:
+	\radon\cli/tools.py:1:1:
+	\radon\cli/tools.py:36:1:
+	\radon\cli/tools.py:76:1:
+	\radon\cli/tools.py:90:1:
+	\radon\cli/tools.py:189:1:
+	\radon\cli/tools.py:216:1:
+	\radon\cli/tools.py:227:1:
+	\radon\cli/tools.py:245:1:
+	\radon\cli/tools.py:273:1:
+	\radon\cli/tools.py:287:1:
+	\radon\cli/tools.py:294:1:
+	\radon\cli/tools.py:298:1:
+	\radon\cli/tools.py:319:1:
+	\radon\cli/tools.py:330:1:
+	\radon\cli/tools.py:384:1:
+	\radon\cli/tools.py:453:1:
+	\radon\cli/tools.py:486:1:
+	\radon\cli/tools.py:516:1:
+	\radon\cli/tools.py:534:1:
+	\radon\cli/tools.py:553:1:
+	\radon\cli/tools.py:589:1:
+	\radon\cli/__init__.py:1:1:
+	\radon\cli/__init__.py:29:1:
+	\radon\cli/__init__.py:54:1:
+	\radon\cli/__init__.py:90:1:
+	\radon\cli/__init__.py:163:1:
+	\radon\cli/__init__.py:207:1:
+	\radon\cli/__init__.py:295:1:
+	\radon\cli/__init__.py:298:1:
+	\radon\cli/__init__.py:302:1:
+	\radon\cli/__init__.py:310:1:
+	\radon\cli/__init__.py:316:1:
+	\radon\cli/__init__.py:321:1:
+	\radon\cli/__init__.py:335:1:
+	\radon\cli/__init__.py:370:1:
+	\radon\cli/__init__.py:386:1:
+	\radon\cli/__init__.py:394:1:
+	\radon\cli/__init__.py:400:1:
+	\radon\contrib/flake8.py:8:1:
+	\radon\contrib/flake8.py:19:1:
+	\radon\contrib/flake8.py:24:1:
+	\radon\contrib/flake8.py:55:1:
+	\radon\contrib/flake8.py:61:1:
+	\radon\tests/test_ipynb.py:30:1:
+
+#28 Error: D400 First line should end with a period
+
+	\radon/complexity.py:1:1:
+	\radon/complexity.py:16:1:
+	\radon/complexity.py:60:1:
+	\radon/complexity.py:79:1:
+	\radon/complexity.py:105:1:
+	\radon/metrics.py:1:1:
+	\radon/metrics.py:26:1:
+	\radon/metrics.py:33:1:
+	\radon/metrics.py:99:1:
+	\radon/metrics.py:121:1:
+	\radon/metrics.py:151:1:
+	\radon/raw.py:55:1:
+	\radon/raw.py:63:1:
+	\radon/raw.py:73:1:
+	\radon/raw.py:83:1:
+	\radon/raw.py:97:1:
+	\radon/raw.py:177:1:
+	\radon/raw.py:186:1:
+	\radon/visitors.py:1:1:
+	\radon/visitors.py:56:1:
+	\radon/visitors.py:63:1:
+	\radon/visitors.py:91:1:
+	\radon/visitors.py:98:1:
+	\radon/visitors.py:119:1:
+	\radon/visitors.py:130:1:
+	\radon/visitors.py:137:1:
+	\radon/visitors.py:146:1:
+	\radon/visitors.py:170:1:
+	\radon/visitors.py:180:1:
+	\radon/visitors.py:187:1:
+	\radon/visitors.py:199:1:
+	\radon/visitors.py:250:1:
+	\radon/visitors.py:256:1:
+	\radon/visitors.py:262:1:
+	\radon/visitors.py:291:1:
+	\radon/visitors.py:331:1:
+	\radon/visitors.py:428:1:
+	\radon/visitors.py:450:1:
+	\radon/__init__.py:1:1:
+	\radon\cli/colors.py:1:1:
+	\radon\cli/harvest.py:90:1:
+	\radon\cli/harvest.py:206:1:
+	\radon\cli/tools.py:36:1:
+	\radon\cli/tools.py:90:1:
+	\radon\cli/tools.py:189:1:
+	\radon\cli/tools.py:216:1:
+	\radon\cli/tools.py:245:1:
+	\radon\cli/tools.py:273:1:
+	\radon\cli/tools.py:294:1:
+	\radon\cli/tools.py:319:1:
+	\radon\cli/tools.py:330:1:
+	\radon\cli/tools.py:384:1:
+	\radon\cli/tools.py:453:1:
+	\radon\cli/tools.py:534:1:
+	\radon\cli/__init__.py:54:1:
+	\radon\cli/__init__.py:90:1:
+	\radon\cli/__init__.py:302:1:
+	\radon\cli/__init__.py:310:1:
+	\radon\cli/__init__.py:386:1:
+	\radon\cli/__init__.py:400:1:
+	\radon\tests/test_ipynb.py:30:1:
+
+#29 Error: Q002 Remove bad quotes from docstring
+
+	\radon/complexity.py:1:1:
+	\radon/complexity.py:16:5:
+	\radon/complexity.py:48:5:
+	\radon/complexity.py:60:5:
+	\radon/complexity.py:79:5:
+	\radon/complexity.py:98:5:
+	\radon/complexity.py:105:5:
+	\radon/metrics.py:1:1:
+	\radon/metrics.py:26:5:
+	\radon/metrics.py:33:5:
+	\radon/metrics.py:99:5:
+	\radon/metrics.py:121:5:
+	\radon/metrics.py:146:5:
+	\radon/metrics.py:151:5:
+	\radon/raw.py:1:1:
+	\radon/raw.py:55:5:
+	\radon/raw.py:63:5:
+	\radon/raw.py:73:5:
+	\radon/raw.py:83:5:
+	\radon/raw.py:97:5:
+	\radon/raw.py:123:5:
+	\radon/raw.py:152:9:
+	\radon/raw.py:177:5:
+	\radon/raw.py:186:5:
+	\radon/visitors.py:1:1:
+	\radon/visitors.py:43:5:
+	\radon/visitors.py:52:5:
+	\radon/visitors.py:56:9:
+	\radon/visitors.py:63:9:
+	\radon/visitors.py:73:9:
+	\radon/visitors.py:85:5:
+	\radon/visitors.py:91:9:
+	\radon/visitors.py:98:9:
+	\radon/visitors.py:107:9:
+	\radon/visitors.py:119:5:
+	\radon/visitors.py:125:9:
+	\radon/visitors.py:130:9:
+	\radon/visitors.py:137:9:
+	\radon/visitors.py:146:5:
+	\radon/visitors.py:170:9:
+	\radon/visitors.py:180:9:
+	\radon/visitors.py:187:9:
+	\radon/visitors.py:199:9:
+	\radon/visitors.py:211:9:
+	\radon/visitors.py:216:9:
+	\radon/visitors.py:221:9:
+	\radon/visitors.py:250:9:
+	\radon/visitors.py:256:9:
+	\radon/visitors.py:262:9:
+	\radon/visitors.py:291:9:
+	\radon/visitors.py:331:5:
+	\radon/visitors.py:345:9:
+	\radon/visitors.py:357:9:
+	\radon/visitors.py:362:9:
+	\radon/visitors.py:366:9:
+	\radon/visitors.py:377:13:
+	\radon/visitors.py:399:9:
+	\radon/visitors.py:404:9:
+	\radon/visitors.py:409:9:
+	\radon/visitors.py:414:9:
+	\radon/visitors.py:419:9:
+	\radon/visitors.py:428:9:
+	\radon/visitors.py:450:9:
+	\radon/__init__.py:1:1:
+	\radon/__init__.py:8:5:
+	\radon\cli/colors.py:1:1:
+	\radon\cli/harvest.py:1:1:
+	\radon\cli/harvest.py:43:5:
+	\radon\cli/harvest.py:64:9:
+	\radon\cli/harvest.py:75:9:
+	\radon\cli/harvest.py:81:9:
+	\radon\cli/harvest.py:90:9:
+	\radon\cli/harvest.py:132:9:
+	\radon\cli/harvest.py:141:13:
+	\radon\cli/harvest.py:151:9:
+	\radon\cli/harvest.py:155:9:
+	\radon\cli/harvest.py:159:9:
+	\radon\cli/harvest.py:163:9:
+	\radon\cli/harvest.py:167:9:
+	\radon\cli/harvest.py:176:5:
+	\radon\cli/harvest.py:179:9:
+	\radon\cli/harvest.py:186:9:
+	\radon\cli/harvest.py:202:9:
+	\radon\cli/harvest.py:206:9:
+	\radon\cli/harvest.py:212:9:
+	\radon\cli/harvest.py:216:9:
+	\radon\cli/harvest.py:220:9:
+	\radon\cli/harvest.py:256:5:
+	\radon\cli/harvest.py:269:9:
+	\radon\cli/harvest.py:273:9:
+	\radon\cli/harvest.py:277:9:
+	\radon\cli/harvest.py:336:5:
+	\radon\cli/harvest.py:339:9:
+	\radon\cli/harvest.py:346:9:
+	\radon\cli/harvest.py:360:9:
+	\radon\cli/harvest.py:364:9:
+	\radon\cli/harvest.py:368:9:
+	\radon\cli/harvest.py:414:9:
+	\radon\cli/tools.py:1:1:
+	\radon\cli/tools.py:36:9:
+	\radon\cli/tools.py:76:13:
+	\radon\cli/tools.py:90:13:
+	\radon\cli/tools.py:189:13:
+	\radon\cli/tools.py:216:9:
+	\radon\cli/tools.py:227:5:
+	\radon\cli/tools.py:245:5:
+	\radon\cli/tools.py:273:5:
+	\radon\cli/tools.py:287:5:
+	\radon\cli/tools.py:294:5:
+	\radon\cli/tools.py:298:9:
+	\radon\cli/tools.py:319:5:
+	\radon\cli/tools.py:330:5:
+	\radon\cli/tools.py:384:5:
+	\radon\cli/tools.py:453:5:
+	\radon\cli/tools.py:486:5:
+	\radon\cli/tools.py:516:5:
+	\radon\cli/tools.py:534:5:
+	\radon\cli/tools.py:553:5:
+	\radon\cli/tools.py:589:5:
+	\radon\cli/__init__.py:1:1:
+	\radon\cli/__init__.py:29:5:
+	\radon\cli/__init__.py:54:9:
+	\radon\cli/__init__.py:90:5:
+	\radon\cli/__init__.py:163:5:
+	\radon\cli/__init__.py:207:5:
+	\radon\cli/__init__.py:295:5:
+	\radon\cli/__init__.py:298:9:
+	\radon\cli/__init__.py:302:9:
+	\radon\cli/__init__.py:310:9:
+	\radon\cli/__init__.py:316:9:
+	\radon\cli/__init__.py:321:9:
+	\radon\cli/__init__.py:335:5:
+	\radon\cli/__init__.py:370:5:
+	\radon\cli/__init__.py:386:5:
+	\radon\cli/__init__.py:394:5:
+	\radon\cli/__init__.py:400:5:
+	\radon\contrib/flake8.py:8:5:
+	\radon\contrib/flake8.py:19:9:
+	\radon\contrib/flake8.py:24:9:
+	\radon\contrib/flake8.py:55:9:
+	\radon\contrib/flake8.py:61:9:
+	\radon\tests/test_ipynb.py:30:5:
+
+#30 Error: E731 do not assign a lambda expression, use a def
+
+	\radon/complexity.py:10:1:
+	\radon/complexity.py:11:1:
+	\radon/complexity.py:12:1:
+	\radon\cli/harvest.py:308:13:
+	\radon\tests/test_complexity_utils.py:12:1:
+	\radon\tests/test_complexity_utils.py:49:1:
+	\radon\tests/test_complexity_utils.py:52:1:
+	\radon\tests/test_complexity_visitor.py:8:1:
+	\radon\tests/test_halstead.py:8:1:
+	\radon\tests/test_other_metrics.py:7:1:
+	\radon\tests/test_raw.py:7:1:
+
+#31 Error: DAR101 Missing parameter(s) in Docstring: - cc
+
+	\radon/complexity.py:16:1:
+
+#32 Error: DAR201 Missing "Returns" in Docstring: - return
+
+	\radon/complexity.py:16:1:
+	\radon/complexity.py:48:1:
+	\radon/complexity.py:60:1:
+	\radon/complexity.py:79:1:
+	\radon/complexity.py:98:1:
+	\radon/complexity.py:105:1:
+	\radon/metrics.py:26:1:
+	\radon/metrics.py:33:1:
+	\radon/metrics.py:70:1:
+	\radon/metrics.py:99:1:
+	\radon/metrics.py:121:1:
+	\radon/metrics.py:146:1:
+	\radon/metrics.py:151:1:
+	\radon/raw.py:55:1:
+	\radon/raw.py:73:1:
+	\radon/raw.py:83:1:
+	\radon/raw.py:97:1:
+	\radon/raw.py:123:1:
+	\radon/raw.py:152:1:
+	\radon/raw.py:177:1:
+	\radon/raw.py:186:1:
+	\radon/visitors.py:43:1:
+	\radon/visitors.py:57:1:
+	\radon/visitors.py:64:1:
+	\radon/visitors.py:73:1:
+	\radon/visitors.py:92:1:
+	\radon/visitors.py:99:1:
+	\radon/visitors.py:107:1:
+	\radon/visitors.py:126:1:
+	\radon/visitors.py:131:1:
+	\radon/visitors.py:138:1:
+	\radon/visitors.py:171:1:
+	\radon/visitors.py:181:1:
+	\radon/visitors.py:188:1:
+	\radon/visitors.py:200:1:
+	\radon/visitors.py:212:1:
+	\radon/visitors.py:358:1:
+	\radon/visitors.py:363:1:
+	\radon/visitors.py:366:1:
+	\radon/visitors.py:400:1:
+	\radon/visitors.py:405:1:
+	\radon/visitors.py:410:1:
+	\radon/visitors.py:415:1:
+	\radon/visitors.py:420:1:
+	\radon\cli/harvest.py:75:1:
+	\radon\cli/harvest.py:133:1:
+	\radon\cli/harvest.py:151:1:
+	\radon\cli/harvest.py:179:1:
+	\radon\cli/harvest.py:186:1:
+	\radon\cli/harvest.py:202:1:
+	\radon\cli/harvest.py:206:1:
+	\radon\cli/harvest.py:212:1:
+	\radon\cli/harvest.py:216:1:
+	\radon\cli/harvest.py:269:1:
+	\radon\cli/harvest.py:339:1:
+	\radon\cli/harvest.py:360:1:
+	\radon\cli/harvest.py:389:1:
+	\radon\cli/harvest.py:394:1:
+	\radon\cli/harvest.py:414:1:
+	\radon\cli/tools.py:76:1:
+	\radon\cli/tools.py:90:1:
+	\radon\cli/tools.py:189:1:
+	\radon\cli/tools.py:227:1:
+	\radon\cli/tools.py:294:1:
+	\radon\cli/tools.py:298:1:
+	\radon\cli/tools.py:319:1:
+	\radon\cli/tools.py:330:1:
+	\radon\cli/tools.py:384:1:
+	\radon\cli/tools.py:453:1:
+	\radon\cli/tools.py:486:1:
+	\radon\cli/tools.py:515:1:
+	\radon\cli/tools.py:534:1:
+	\radon\cli/tools.py:553:1:
+	\radon\cli/tools.py:589:1:
+	\radon\cli/__init__.py:54:1:
+	\radon\cli/__init__.py:302:1:
+	\radon\cli/__init__.py:310:1:
+	\radon\cli/__init__.py:316:1:
+	\radon\cli/__init__.py:322:1:
+
+#33 Error: DAR401 Missing exception(s) in Raises section: -r ValueError
+
+	\radon/complexity.py:16:1:
+	\radon/raw.py:73:1:
+
+#34 Error: WPS221 Found line with high Jones Complexity: 25 > 14
+
+	\radon/complexity.py:43:9:
+
+#35 Error: WPS432 Found magic number: 10.0
+
+	\radon/complexity.py:43:32:
+
+#36 Error: WPS432 Found magic number: 65
+
+	\radon/complexity.py:43:71:
+	\radon/metrics.py:157:16:
+
+#37 Error: DAR101 Missing parameter(s) in Docstring: - blocks
+
+	\radon/complexity.py:48:1:
+	\radon/complexity.py:60:1:
+	\radon/complexity.py:79:1:
+
+#38 Error: RST304 Unknown interpreted text role "class".
+
+	\radon/complexity.py:48:1:
+	\radon/complexity.py:48:1:
+	\radon/complexity.py:60:1:
+	\radon/complexity.py:60:1:
+	\radon/complexity.py:98:1:
+	\radon/complexity.py:105:1:
+	\radon/metrics.py:33:1:
+	\radon\cli/harvest.py:66:1:
+
+#39 Error: WPS358 Found a float zero (0.0)
+
+	\radon/complexity.py:56:61:
+	\radon/metrics.py:117:20:
+	\radon\cli/harvest.py:221:22:
+	\radon\cli/tools.py:472:16:
+	\radon\tests/test_cli_harvest.py:321:31:
+	\radon\tests/test_cli_harvest.py:322:31:
+	\radon\tests/test_cli_harvest.py:323:35:
+	\radon\tests/test_complexity_utils.py:56:14:
+
+#40 Error: DAR101 Missing parameter(s) in Docstring: - order
+
+	\radon/complexity.py:60:1:
+	\radon\cli/__init__.py:91:1:
+
+#41 Error: WPS210 Found too many local variables: 8 > 5
+
+	\radon/complexity.py:78:1:
+	\radon/visitors.py:290:5:
+	\radon\cli/harvest.py:219:5:
+	\radon\cli/harvest.py:276:5:
+	\radon\tests/test_complexity_visitor.py:653:1:
+
+#42 Error: WPS442 Found outer scope names shadowing: block
+
+	\radon/complexity.py:85:9:
+
+#43 Error: WPS437 Found protected attribute usage: _replace
+
+	\radon/complexity.py:89:25:
+	\radon/complexity.py:92:31:
+
+#44 Error: WPS336 Found explicit string concatenation
+
+	\radon/complexity.py:89:60:
+	\radon/raw.py:118:27:
+	\radon\cli/tools.py:144:31:
+	\radon\cli/tools.py:161:33:
+	\radon\tests/test_ipynb.py:132:28:
+
+#45 Error: DAR101 Missing parameter(s) in Docstring: - **kwargs
+
+	\radon/complexity.py:98:1:
+	\radon/complexity.py:105:1:
+	\radon/visitors.py:131:1:
+	\radon/visitors.py:138:1:
+	\radon\cli/__init__.py:298:1:
+	\radon\cli/__init__.py:335:1:
+	\radon\cli/__init__.py:370:1:
+	\radon\cli/__init__.py:386:1:
+	\radon\cli/__init__.py:394:1:
+
+#46 Error: DAR101 Missing parameter(s) in Docstring: - code
+
+	\radon/complexity.py:98:1:
+	\radon/metrics.py:26:1:
+	\radon/metrics.py:121:1:
+	\radon/metrics.py:146:1:
+	\radon/raw.py:55:1:
+	\radon/visitors.py:131:1:
+
+#47 Error: DAR101 Missing parameter(s) in Docstring: - ast_node
+
+	\radon/complexity.py:105:1:
+	\radon/metrics.py:33:1:
+	\radon/visitors.py:138:1:
+
+#48 Error: WPS326 Found implicit string concatenation
+
+	\radon/metrics.py:16:5:
+	\radon/metrics.py:17:5:
+	\radon\cli/tools.py:146:61:
+	\radon\cli/tools.py:157:59:
+	\radon\cli/tools.py:425:21:
+	\radon\cli/tools.py:557:9:
+	\radon\cli/tools.py:558:9:
+	\radon\cli/tools.py:559:9:
+	\radon\cli/tools.py:560:9:
+	\radon\cli/tools.py:562:9:
+	\radon\cli/tools.py:563:9:
+	\radon\cli/tools.py:569:9:
+	\radon\cli/tools.py:573:9:
+	\radon\cli/tools.py:574:64:
+	\radon\cli/tools.py:576:9:
+	\radon\cli/tools.py:578:9:
+	\radon\cli/tools.py:580:9:
+	\radon\cli/tools.py:582:9:
+
+#49 Error: Q000 Remove bad quotes
+
+	\radon/metrics.py:22:35:
+	\radon/metrics.py:22:47:
+	\radon/visitors.py:338:9:
+	\radon/visitors.py:338:16:
+	\radon/visitors.py:339:9:
+	\radon/visitors.py:339:17:
+	\radon/visitors.py:340:9:
+	\radon/visitors.py:340:22:
+	\radon/visitors.py:341:9:
+	\radon/visitors.py:341:21:
+	\radon/visitors.py:388:51:
+	\radon\cli/harvest.py:108:35:
+	\radon\cli/harvest.py:119:41:
+	\radon\cli/harvest.py:402:23:
+	\radon\cli/harvest.py:404:27:
+	\radon\cli/harvest.py:404:52:
+	\radon\cli/harvest.py:409:23:
+	\radon\cli/harvest.py:427:11:
+	\radon\cli/harvest.py:427:44:
+	\radon\cli/harvest.py:428:11:
+	\radon\cli/harvest.py:428:44:
+	\radon\cli/harvest.py:429:11:
+	\radon\cli/harvest.py:429:44:
+	\radon\cli/harvest.py:430:11:
+	\radon\cli/harvest.py:430:44:
+	\radon\cli/harvest.py:431:11:
+	\radon\cli/harvest.py:432:9:
+	\radon\cli/harvest.py:434:11:
+	\radon\cli/harvest.py:434:52:
+	\radon\cli/harvest.py:435:11:
+	\radon\cli/harvest.py:436:9:
+	\radon\cli/harvest.py:438:11:
+	\radon\cli/harvest.py:438:52:
+	\radon\cli/harvest.py:439:11:
+	\radon\cli/harvest.py:440:9:
+	\radon\cli/harvest.py:442:11:
+	\radon\cli/harvest.py:442:52:
+	\radon\cli/harvest.py:443:11:
+	\radon\cli/harvest.py:443:48:
+	\radon\cli/harvest.py:444:11:
+	\radon\cli/harvest.py:444:48:
+	\radon\cli/tools.py:360:39:
+	\radon\cli/tools.py:361:34:
+	\radon\cli/tools.py:362:20:
+	\radon\cli/tools.py:364:55:
+	\radon\cli/tools.py:365:39:
+	\radon\cli/tools.py:367:24:
+	\radon\cli/tools.py:369:24:
+	\radon\cli/tools.py:371:24:
+	\radon\cli/tools.py:372:26:
+	\radon\cli/tools.py:376:23:
+	\radon\cli/tools.py:377:23:
+	\radon\cli/tools.py:378:23:
+	\radon\cli/tools.py:379:23:
+	\radon\cli/__init__.py:249:14:
+	\radon\cli/__init__.py:249:29:
+	\radon\tests/conftest.py:19:25:
+	\radon\tests/conftest.py:27:23:
+	\radon\tests/test_ipynb.py:18:13:
+	\radon\tests/test_ipynb.py:22:13:
+	\radon\tests/test_ipynb.py:28:48:
+	\radon\tests/test_ipynb.py:39:48:
+	\radon\tests/test_ipynb.py:73:48:
+	\radon\tests/test_ipynb.py:107:48:
+	\radon\tests/test_ipynb.py:125:48:
+	\radon\tests/test_ipynb.py:132:28:
+	\radon\tests/test_other_metrics.py:77:21:
+
+#50 Error: RST304 Unknown interpreted text role "func".
+
+	\radon/metrics.py:26:1:
+	\radon/metrics.py:99:1:
+	\radon/raw.py:4:1:
+	\radon/visitors.py:331:1:
+	\radon\cli/harvest.py:75:1:
+	\radon\cli/tools.py:273:1:
+	\radon\cli/__init__.py:337:1:
+	\radon\cli/__init__.py:386:1:
+
+#51 Error: RST215 Inline interpreted text or phrase reference start-string without end-string.
+
+	\radon/metrics.py:54:1:
+	\radon\cli/__init__.py:335:1:
+
+#52 Error: WPS111 Found too short name: v < 2
+
+	\radon/metrics.py:63:13:
+	\radon\cli/harvest.py:194:21:
+	\radon\cli/harvest.py:308:30:
+	\radon\cli/tools.py:309:9:
+	\radon\cli/tools.py:323:9:
+	\radon\tests/test_complexity_visitor.py:671:5:
+
+#53 Error: WPS210 Found too many local variables: 10 > 5
+
+	\radon/metrics.py:69:1:
+
+#54 Error: DAR101 Missing parameter(s) in Docstring: - visitor
+
+	\radon/metrics.py:70:1:
+
+#55 Error: N806 variable 'N1' in function should be lowercase
+
+	\radon/metrics.py:72:6:
+
+#56 Error: N806 variable 'N2' in function should be lowercase
+
+	\radon/metrics.py:72:6:
+
+#57 Error: WPS111 Found too short name: h < 2
+
+	\radon/metrics.py:73:5:
+	\radon\tests/test_cli.py:244:5:
+	\radon\tests/test_cli_harvest.py:71:5:
+	\radon\tests/test_cli_harvest.py:78:5:
+	\radon\tests/test_cli_harvest.py:84:5:
+	\radon\tests/test_cli_harvest.py:90:5:
+	\radon\tests/test_cli_harvest.py:96:5:
+	\radon\tests/test_cli_harvest.py:102:5:
+	\radon\tests/test_cli_harvest.py:111:5:
+	\radon\tests/test_cli_harvest.py:122:5:
+	\radon\tests/test_cli_harvest.py:134:5:
+	\radon\tests/test_cli_harvest.py:148:5:
+	\radon\tests/test_cli_harvest.py:169:5:
+	\radon\tests/test_cli_harvest.py:184:5:
+	\radon\tests/test_cli_harvest.py:196:5:
+	\radon\tests/test_cli_harvest.py:230:5:
+	\radon\tests/test_cli_harvest.py:239:5:
+	\radon\tests/test_cli_harvest.py:245:5:
+	\radon\tests/test_cli_harvest.py:345:5:
+	\radon\tests/test_cli_harvest.py:355:5:
+	\radon\tests/test_cli_harvest.py:369:5:
+	\radon\tests/test_cli_harvest.py:380:5:
+
+#58 Error: WPS111 Found too short name: N < 2
+
+	\radon/metrics.py:74:5:
+
+#59 Error: N806 variable 'N' in function should be lowercase
+
+	\radon/metrics.py:74:6:
+
+#60 Error: WPS221 Found line with high Jones Complexity: 17 > 14
+
+	\radon/metrics.py:76:9:
+	\radon\tests/test_cli_tools.py:36:5:
+
+#61 Error: WPS504 Found negated condition
+
+	\radon/metrics.py:79:14:
+	\radon/metrics.py:80:18:
+	\radon/metrics.py:136:16:
+	\radon\cli/tools.py:493:13:
+	\radon\cli/__init__.py:365:19:
+
+#62 Error: WPS432 Found magic number: 18.0
+
+	\radon/metrics.py:93:18:
+
+#63 Error: WPS432 Found magic number: 3000.0
+
+	\radon/metrics.py:94:18:
+
+#64 Error: DAR101 Missing parameter(s) in Docstring: - comments
+
+	\radon/metrics.py:99:1:
+
+#65 Error: DAR101 Missing parameter(s) in Docstring: - complexity
+
+	\radon/metrics.py:99:1:
+	\radon\cli/tools.py:534:1:
+
+#66 Error: DAR101 Missing parameter(s) in Docstring: - halstead_volume
+
+	\radon/metrics.py:99:1:
+
+#67 Error: DAR101 Missing parameter(s) in Docstring: - sloc
+
+	\radon/metrics.py:99:1:
+
+#68 Error: WPS432 Found magic number: 2.46
+
+	\radon/metrics.py:108:32:
+
+#69 Error: WPS432 Found magic number: 171
+
+	\radon/metrics.py:111:9:
+
+#70 Error: WPS432 Found magic number: 5.2
+
+	\radon/metrics.py:112:11:
+
+#71 Error: WPS432 Found magic number: 0.23
+
+	\radon/metrics.py:113:11:
+
+#72 Error: WPS432 Found magic number: 16.2
+
+	\radon/metrics.py:114:11:
+
+#73 Error: WPS432 Found magic number: 50
+
+	\radon/metrics.py:115:11:
+
+#74 Error: WPS432 Found magic number: 171.0
+
+	\radon/metrics.py:117:39:
+
+#75 Error: DAR101 Missing parameter(s) in Docstring: - count_multi
+
+	\radon/metrics.py:121:1:
+
+#76 Error: WPS509 Found incorrectly nested ternary
+
+	\radon/metrics.py:135:38:
+
+#77 Error: DAR101 Missing parameter(s) in Docstring: - multi
+
+	\radon/metrics.py:146:1:
+	\radon\cli/__init__.py:208:1:
+
+#78 Error: D208 Docstring is over-indented
+
+	\radon/metrics.py:151:1:
+	\radon\cli/tools.py:384:1:
+
+#79 Error: DAR101 Missing parameter(s) in Docstring: - score
+
+	\radon/metrics.py:151:1:
+
+#80 Error: WPS432 Found magic number: 19
+
+	\radon/metrics.py:157:41:
+	\radon\tests/test_cli.py:86:50:
+	\radon\tests/test_cli_tools.py:165:31:
+	\radon\tests/test_cli_tools.py:319:54:
+	\radon\tests/test_cli_tools.py:492:24:
+	\radon\tests/test_cli_tools.py:506:16:
+
+#81 Error: WPS202 Found too many module members: 8 > 7
+
+	\radon/raw.py:0:1:
+
+#82 Error: WPS433 Found nested import
+
+	\radon/raw.py:12:5:
+	\radon/raw.py:14:5:
+	\radon/__init__.py:9:5:
+	\radon/__init__.py:10:5:
+	\radon\cli/colors.py:8:5:
+	\radon\cli/harvest.py:30:5:
+	\radon\cli/harvest.py:32:5:
+	\radon\cli/harvest.py:35:5:
+	\radon\cli/tools.py:24:5:
+	\radon\cli/tools.py:66:9:
+	\radon\cli/tools.py:68:9:
+	\radon\cli/tools.py:69:9:
+	\radon\cli/tools.py:70:9:
+	\radon\cli/__init__.py:20:5:
+	\radon\cli/__init__.py:22:5:
+	\radon\tests/run.py:2:5:
+	\radon\tests/test_cli_harvest.py:2:5:
+	\radon\tests/test_cli_harvest.py:4:5:
+
+#83 Error: N813 camelcase 'StringIO' imported as lowercase 'io'
+
+	\radon/raw.py:12:6:
+
+#84 Error: WPS440 Found block variables overlap: io
+
+	\radon/raw.py:14:5:
+
+#85 Error: WPS410 Found wrong metadata variable: __all__
+
+	\radon/raw.py:17:1:
+
+#86 Error: DAR101 Missing parameter(s) in Docstring: - remove
+
+	\radon/raw.py:63:1:
+
+#87 Error: DAR101 Missing parameter(s) in Docstring: - tokens
+
+	\radon/raw.py:63:1:
+	\radon/raw.py:73:1:
+	\radon/raw.py:83:1:
+	\radon/raw.py:123:1:
+	\radon/raw.py:177:1:
+
+#88 Error: DAR301 Missing "Yields" in Docstring: - yield
+
+	\radon/raw.py:63:1:
+	\radon\cli/harvest.py:90:1:
+	\radon\cli/harvest.py:141:1:
+	\radon\cli/harvest.py:220:1:
+	\radon\cli/harvest.py:277:1:
+	\radon\cli/harvest.py:347:1:
+	\radon\cli/harvest.py:368:1:
+	\radon\cli/harvest.py:399:1:
+	\radon\cli/harvest.py:426:1:
+	\radon\cli/tools.py:37:1:
+	\radon\cli/tools.py:217:1:
+	\radon\cli/tools.py:245:1:
+	\radon\cli/tools.py:273:1:
+	\radon\cli/tools.py:287:1:
+	\radon\cli/__init__.py:401:1:
+	\radon\contrib/flake8.py:61:1:
+
+#89 Error: WPS110 Found wrong variable name: values
+
+	\radon/raw.py:66:9:
+	\radon\cli/harvest.py:192:13:
+	\radon\cli/__init__.py:329:9:
+	\radon\tests/test_complexity_visitor.py:693:29:
+	\radon\tests/test_other_metrics.py:31:21:
+
+#90 Error: WPS110 Found wrong variable name: value
+
+	\radon/raw.py:72:26:
+	\radon/raw.py:82:34:
+	\radon/visitors.py:215:24:
+	\radon\cli/harvest.py:285:17:
+	\radon\cli/harvest.py:347:18:
+
+#91 Error: DAR101 Missing parameter(s) in Docstring: - token
+
+	\radon/raw.py:73:1:
+	\radon/raw.py:83:1:
+
+#92 Error: DAR101 Missing parameter(s) in Docstring: - value
+
+	\radon/raw.py:73:1:
+	\radon/raw.py:83:1:
+	\radon/visitors.py:217:1:
+
+#93 Error: WPS309 Found reversed compare order
+
+	\radon/raw.py:77:12:
+	\radon/raw.py:89:12:
+	\radon\tests/test_complexity_visitor.py:430:12:
+
+#94 Error: D401 First line should be in imperative mood
+
+	\radon/raw.py:97:1:
+	\radon\cli/harvest.py:167:1:
+	\radon\cli/__init__.py:298:1:
+
+#95 Error: DAR101 Missing parameter(s) in Docstring: - line
+
+	\radon/raw.py:97:1:
+
+#96 Error: DAR101 Missing parameter(s) in Docstring: - lines
+
+	\radon/raw.py:97:1:
+
+#97 Error: RST304 Unknown interpreted text role "exc".
+
+	\radon/raw.py:97:1:
+
+#98 Error: WPS420 Found wrong keyword: pass
+
+	\radon/raw.py:111:13:
+	\radon\tests/test_cli.py:21:5:
+	\radon\tests/test_cli.py:25:5:
+	\radon\tests/test_cli.py:29:5:
+	\radon\tests\data/no_encoding.py:2:5:
+
+#99 Error: WPS111 Found too short name: t < 2
+
+	\radon/raw.py:113:56:
+	\radon/raw.py:181:50:
+	\radon/raw.py:217:19:
+	\radon\cli/harvest.py:142:17:
+
+#100 Error: WPS430 Found nested function: aux
+
+	\radon/raw.py:151:5:
+	\radon/visitors.py:376:9:
+
+#101 Error: D401 First line should be in imperative mood; try rephrasing
+
+	\radon/raw.py:152:1:
+	\radon/visitors.py:56:1:
+	\radon/visitors.py:63:1:
+	\radon/visitors.py:73:1:
+	\radon/visitors.py:91:1:
+	\radon/visitors.py:98:1:
+	\radon/visitors.py:107:1:
+	\radon/visitors.py:170:1:
+	\radon/visitors.py:180:1:
+	\radon/visitors.py:187:1:
+	\radon/visitors.py:211:1:
+	\radon/visitors.py:216:1:
+	\radon/visitors.py:221:1:
+	\radon/visitors.py:357:1:
+	\radon/visitors.py:362:1:
+	\radon/visitors.py:366:1:
+	\radon/visitors.py:399:1:
+	\radon/visitors.py:404:1:
+	\radon/visitors.py:409:1:
+	\radon/visitors.py:414:1:
+	\radon/visitors.py:419:1:
+	\radon/__init__.py:8:1:
+	\radon\cli/harvest.py:75:1:
+	\radon\cli/harvest.py:81:1:
+	\radon\cli/harvest.py:132:1:
+	\radon\cli/harvest.py:141:1:
+	\radon\cli/harvest.py:273:1:
+	\radon\cli/harvest.py:364:1:
+	\radon\cli/tools.py:90:1:
+	\radon\cli/tools.py:245:1:
+	\radon\cli/tools.py:298:1:
+	\radon\cli/__init__.py:310:1:
+
+#102 Error: DAR101 Missing parameter(s) in Docstring: - sub_tokens
+
+	\radon/raw.py:152:1:
+
+#103 Error: WPS229 Found too long ``try`` body length: 2 > 1
+
+	\radon/raw.py:155:9:
+	\radon\cli/harvest.py:34:1:
+	\radon\cli/tools.py:23:1:
+	\radon\cli/__init__.py:323:9:
+
+#104 Error: DAR101 Missing parameter(s) in Docstring: - token_number
+
+	\radon/raw.py:177:1:
+
+#105 Error: WPS510 Found `in` used with a non-set container
+
+	\radon/raw.py:181:29:
+	\radon/visitors.py:231:21:
+	\radon/visitors.py:237:23:
+	\radon/visitors.py:240:23:
+	\radon\cli/tools.py:81:17:
+
+#106 Error: WPS210 Found too many local variables: 15 > 5
+
+	\radon/raw.py:185:1:
+
+#107 Error: WPS231 Found function with too much cognitive complexity: 23 > 12
+
+	\radon/raw.py:185:1:
+
+#108 Error: DAR101 Missing parameter(s) in Docstring: - source
+
+	\radon/raw.py:186:1:
+	\radon/visitors.py:43:1:
+
+#109 Error: DAR401 Missing exception(s) in Raises section: -r SyntaxError
+
+	\radon/raw.py:186:1:
+
+#110 Error: WPS429 Found multiple assign targets
+
+	\radon/raw.py:203:5:
+	\radon\cli/colors.py:24:5:
+
+#111 Error: E741 ambiguous variable name 'l'
+
+	\radon/raw.py:204:28:
+	\radon/raw.py:232:36:
+	\radon/raw.py:233:36:
+	\radon\tests/test_cli_tools.py:559:62:
+
+#112 Error: WPS111 Found too short name: l < 2
+
+	\radon/raw.py:204:28:
+	\radon/raw.py:232:36:
+	\radon/raw.py:233:36:
+	\radon\tests/test_cli_tools.py:559:62:
+
+#113 Error: WPS236 Found too many variables used to unpack a tuple: 5 > 4
+
+	\radon/raw.py:226:13:
+
+#114 Error: D209 Multi-line docstring closing quotes should be on a separate line
+
+	\radon/visitors.py:1:1:
+	\radon/__init__.py:1:1:
+	\radon\cli/tools.py:294:1:
+	\radon\cli/tools.py:319:1:
+	\radon\cli/tools.py:330:1:
+	\radon\cli/tools.py:384:1:
+	\radon\cli/tools.py:534:1:
+
+#115 Error: H601 class has low (33.33%) cohesion
+
+	\radon/visitors.py:51:1:
+	\radon\cli/harvest.py:255:1:
+
+#116 Error: RST301 Unexpected indentation.
+
+	\radon/visitors.py:65:1:
+	\radon\cli/tools.py:4:1:
+
+#117 Error: RST201 Block quote ends without a blank line; unexpected unindent.
+
+	\radon/visitors.py:66:1:
+
+#118 Error: H601 class has low (37.50%) cohesion
+
+	\radon/visitors.py:84:1:
+
+#119 Error: RST304 Unknown interpreted text role "data".
+
+	\radon/visitors.py:91:1:
+
+#120 Error: H601 class has low (0.00%) cohesion
+
+	\radon/visitors.py:118:1:
+	\radon\tests\data/no_encoding.py:1:1:
+
+#121 Error: WPS602 Found using `@staticmethod`
+
+	\radon/visitors.py:123:5:
+	\radon\cli/__init__.py:52:5:
+
+#122 Error: WPS110 Found wrong variable name: obj
+
+	\radon/visitors.py:124:18:
+	\radon\cli/tools.py:293:16:
+	\radon\cli/tools.py:297:18:
+	\radon\cli/tools.py:318:17:
+	\radon\tests/test_complexity_visitor.py:697:5:
+
+#123 Error: DAR101 Missing parameter(s) in Docstring: - obj
+
+	\radon/visitors.py:126:1:
+	\radon\cli/tools.py:294:1:
+	\radon\cli/tools.py:298:1:
+	\radon\cli/tools.py:319:1:
+
+#124 Error: H601 class has low (22.31%) cohesion
+
+	\radon/visitors.py:145:1:
+
+#125 Error: WPS230 Found too many public instance attributes: 8 > 6
+
+	\radon/visitors.py:145:1:
+
+#126 Error: WPS214 Found too many methods: 12 > 7
+
+	\radon/visitors.py:145:1:
+
+#127 Error: D107 Missing docstring in __init__
+
+	\radon/visitors.py:156:1:
+	\radon\cli/harvest.py:384:1:
+	\radon\cli/__init__.py:33:1:
+	\radon\tests/conftest.py:13:1:
+
+#128 Error: WPS117 Found name reserved for first argument: cls
+
+	\radon/visitors.py:204:13:
+	\radon/visitors.py:318:9:
+	\radon\tests/test_complexity_utils.py:52:1:
+	\radon\tests/test_complexity_visitor.py:541:5:
+	\radon\tests/test_complexity_visitor.py:696:5:
+
+#129 Error: WPS231 Found function with too much cognitive complexity: 16 > 12
+
+	\radon/visitors.py:220:5:
+	\radon\cli/harvest.py:276:5:
+	\radon\cli/tools.py:353:1:
+
+#130 Error: DAR101 Missing parameter(s) in Docstring: - node
+
+	\radon/visitors.py:221:1:
+	\radon/visitors.py:250:1:
+	\radon/visitors.py:256:1:
+	\radon/visitors.py:262:1:
+	\radon/visitors.py:291:1:
+	\radon/visitors.py:377:1:
+	\radon/visitors.py:400:1:
+	\radon/visitors.py:405:1:
+	\radon/visitors.py:410:1:
+	\radon/visitors.py:415:1:
+	\radon/visitors.py:420:1:
+	\radon/visitors.py:428:1:
+	\radon/visitors.py:450:1:
+
+#131 Error: WPS421 Found wrong function call: hasattr
+
+	\radon/visitors.py:225:12:
+	\radon\cli/tools.py:313:12:
+	\radon\tests/test_complexity_utils.py:40:8:
+
+#132 Error: WPS223 Found too many `elif` branches: 4 > 3
+
+	\radon/visitors.py:231:9:
+
+#133 Error: WPS608 Found incorrect `super()` call: remove arguments
+
+	\radon/visitors.py:247:9:
+	\radon/visitors.py:393:13:
+
+#134 Error: N802 function name 'visit_Assert' should be lowercase
+
+	\radon/visitors.py:249:10:
+
+#135 Error: N802 function name 'visit_AsyncFunctionDef' should be lowercase
+
+	\radon/visitors.py:255:10:
+	\radon/visitors.py:449:10:
+
+#136 Error: N802 function name 'visit_FunctionDef' should be lowercase
+
+	\radon/visitors.py:261:10:
+	\radon/visitors.py:427:10:
+
+#137 Error: N802 function name 'visit_ClassDef' should be lowercase
+
+	\radon/visitors.py:290:10:
+
+#138 Error: WPS425 Found boolean non-keyword argument: True
+
+	\radon/visitors.py:306:17:
+	\radon\cli/__init__.py:197:41:
+	\radon\tests/test_cli_tools.py:165:42:
+	\radon\tests/test_cli_tools.py:580:42:
+	\radon\tests/test_cli_tools.py:585:42:
+	\radon\tests/test_cli_tools.py:595:42:
+	\radon\tests/test_cli_tools.py:600:42:
+	\radon\tests/test_cli_tools.py:605:42:
+	\radon\tests/test_cli_tools.py:605:58:
+
+#139 Error: H601 class has low (25.97%) cohesion
+
+	\radon/visitors.py:330:1:
+
+#140 Error: WPS214 Found too many methods: 11 > 7
+
+	\radon/visitors.py:330:1:
+
+#141 Error: DAR101 Missing parameter(s) in Docstring: - context
+
+	\radon/visitors.py:345:1:
+
+#142 Error: N805 first argument of a method should be named 'self'
+
+	\radon/visitors.py:365:19:
+
+#143 Error: DAR101 Missing parameter(s) in Docstring: - self
+
+	\radon/visitors.py:377:1:
+
+#144 Error: WPS110 Found wrong variable name: results
+
+	\radon/visitors.py:378:13:
+	\radon\cli/harvest.py:130:5:
+	\radon\cli/harvest.py:354:21:
+	\radon\cli/harvest.py:416:23:
+	\radon\cli/tools.py:329:17:
+	\radon\cli/tools.py:353:16:
+	\radon\cli/tools.py:383:32:
+	\radon\cli/tools.py:452:20:
+	\radon\tests/test_cli_harvest.py:113:5:
+	\radon\tests/test_cli_harvest.py:202:5:
+	\radon\tests/test_cli_tools.py:564:5:
+
+#145 Error: WPS613 Found incorrect `super()` call context: incorrect name access
+
+	\radon/visitors.py:393:13:
+
+#146 Error: WPS608 Found incorrect `super()` call: not inside method
+
+	\radon/visitors.py:393:13:
+
+#147 Error: N802 function name 'visit_BinOp' should be lowercase
+
+	\radon/visitors.py:398:10:
+
+#148 Error: WPS221 Found line with high Jones Complexity: 15 > 14
+
+	\radon/visitors.py:400:9:
+	\radon/visitors.py:410:9:
+	\radon/visitors.py:415:9:
+	\radon\cli/tools.py:278:9:
+	\radon\tests/test_cli_harvest.py:115:5:
+	\radon\tests/test_cli_tools.py:319:5:
+	\radon\tests/test_complexity_utils.py:113:5:
+	\radon\tests/test_complexity_utils.py:118:5:
+
+#149 Error: N802 function name 'visit_UnaryOp' should be lowercase
+
+	\radon/visitors.py:403:10:
+
+#150 Error: N802 function name 'visit_BoolOp' should be lowercase
+
+	\radon/visitors.py:408:10:
+
+#151 Error: N802 function name 'visit_AugAssign' should be lowercase
+
+	\radon/visitors.py:413:10:
+
+#152 Error: N802 function name 'visit_Compare' should be lowercase
+
+	\radon/visitors.py:418:10:
+
+#153 Error: WPS412 Found `__init__.py` module with logic
+
+	\radon/__init__.py:0:1:
+	\radon\cli/__init__.py:0:1:
+	\radon\tests\data/__init__.py:0:1:
+
+#154 Error: WPS410 Found wrong metadata variable: __version__
+
+	\radon/__init__.py:4:1:
+
+#155 Error: WPS111 Found too short name: e < 2
+
+	\radon/__init__.py:16:5:
+	\radon\cli/harvest.py:127:17:
+	\radon\tests/test_other_metrics.py:104:16:
+
+#156 Error: WPS229 Found too long ``try`` body length: 5 > 1
+
+	\radon\cli/colors.py:7:1:
+	\radon\cli/tools.py:194:13:
+
+#157 Error: WPS407 Found mutable module constant
+
+	\radon\cli/colors.py:26:1:
+	\radon\cli/colors.py:35:1:
+	\radon\cli/colors.py:37:1:
+	\radon\tests/test_cli_tools.py:145:1:
+	\radon\tests/test_cli_tools.py:233:1:
+	\radon\tests/test_cli_tools.py:285:1:
+	\radon\tests/test_cli_tools.py:483:1:
+	\radon\tests/test_complexity_utils.py:35:1:
+	\radon\tests/test_complexity_utils.py:55:1:
+	\radon\tests/test_complexity_utils.py:73:1:
+	\radon\tests/test_complexity_visitor.py:11:1:
+	\radon\tests/test_complexity_visitor.py:326:1:
+	\radon\tests/test_complexity_visitor.py:368:1:
+	\radon\tests/test_complexity_visitor.py:433:1:
+	\radon\tests/test_complexity_visitor.py:488:1:
+	\radon\tests/test_complexity_visitor.py:546:1:
+	\radon\tests/test_complexity_visitor.py:621:1:
+	\radon\tests/test_complexity_visitor.py:675:1:
+	\radon\tests/test_halstead.py:11:1:
+	\radon\tests/test_other_metrics.py:22:1:
+	\radon\tests/test_other_metrics.py:36:1:
+	\radon\tests/test_other_metrics.py:44:1:
+	\radon\tests/test_other_metrics.py:135:1:
+	\radon\tests/test_raw.py:10:1:
+	\radon\tests/test_raw.py:55:1:
+	\radon\tests/test_raw.py:192:1:
+
+#158 Error: WPS226 Found string constant over-use: error > 3
+
+	\radon\cli/harvest.py:0:1:
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#159 Error: WPS226 Found string constant over-use: Format the results as JSON. > 3
+
+	\radon\cli/harvest.py:0:1:
+
+#160 Error: WPS226 Found string constant over-use: Analyze the content of the file object. > 3
+
+	\radon\cli/harvest.py:0:1:
+
+#161 Error: WPS226 Found string constant over-use: rank > 3
+
+	\radon\cli/harvest.py:0:1:
+	\radon\tests/test_cli_harvest.py:0:1:
+	\radon\tests/test_cli_tools.py:0:1:
+
+#162 Error: WPS226 Found string constant over-use: indent > 3
+
+	\radon\cli/harvest.py:0:1:
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#163 Error: WPS450 Found protected object import: _open
+
+	\radon\cli/harvest.py:9:1:
+
+#164 Error: WPS235 Found too many imported names from a module: 9 > 8
+
+	\radon\cli/harvest.py:9:1:
+
+#165 Error: WPS440 Found block variables overlap: StringIO
+
+	\radon\cli/harvest.py:32:5:
+
+#166 Error: H601 class has low (20.00%) cohesion
+
+	\radon\cli/harvest.py:42:1:
+
+#167 Error: WPS338 Found incorrect order of methods in a class
+
+	\radon\cli/harvest.py:42:1:
+	\radon\cli/harvest.py:175:1:
+	\radon\cli/harvest.py:335:1:
+
+#168 Error: WPS214 Found too many methods: 10 > 7
+
+	\radon\cli/harvest.py:42:1:
+
+#169 Error: RST304 Unknown interpreted text role "meth".
+
+	\radon\cli/harvest.py:49:1:
+	\radon\cli/harvest.py:58:1:
+	\radon\cli/harvest.py:58:1:
+	\radon\cli/harvest.py:58:1:
+	\radon\cli/harvest.py:90:1:
+
+#170 Error: DAR101 Missing parameter(s) in Docstring: - config
+
+	\radon\cli/harvest.py:64:1:
+
+#171 Error: DAR101 Missing parameter(s) in Docstring: - paths
+
+	\radon\cli/harvest.py:64:1:
+	\radon\cli/tools.py:245:1:
+	\radon\cli/__init__.py:91:1:
+	\radon\cli/__init__.py:164:1:
+	\radon\cli/__init__.py:208:1:
+	\radon\cli/__init__.py:261:1:
+
+#172 Error: WPS110 Found wrong variable name: _results
+
+	\radon\cli/harvest.py:72:9:
+
+#173 Error: DAR101 Missing parameter(s) in Docstring: - fobj
+
+	\radon\cli/harvest.py:81:1:
+	\radon\cli/harvest.py:179:1:
+	\radon\cli/harvest.py:269:1:
+	\radon\cli/harvest.py:339:1:
+	\radon\cli/harvest.py:389:1:
+
+#174 Error: DAR401 Missing exception(s) in Raises section: -r NotImplementedError
+
+	\radon\cli/harvest.py:81:1:
+	\radon\cli/harvest.py:155:1:
+	\radon\cli/harvest.py:159:1:
+	\radon\cli/harvest.py:163:1:
+	\radon\cli/harvest.py:167:1:
+	\radon\cli/harvest.py:273:1:
+	\radon\cli/harvest.py:364:1:
+
+#175 Error: WPS210 Found too many local variables: 7 > 5
+
+	\radon\cli/harvest.py:89:5:
+	\radon\cli/tools.py:329:1:
+
+#176 Error: WPS231 Found function with too much cognitive complexity: 20 > 12
+
+	\radon\cli/harvest.py:89:5:
+
+#177 Error: WPS220 Found too deep nesting: 24 > 20
+
+	\radon\cli/harvest.py:98:25:
+	\radon\cli/harvest.py:126:25:
+	\radon\cli/harvest.py:406:25:
+	\radon\cli/tools.py:132:25:
+	\radon\cli/tools.py:144:25:
+	\radon\cli/tools.py:146:25:
+	\radon\cli/tools.py:154:25:
+	\radon\cli/tools.py:160:25:
+
+#178 Error: WPS220 Found too deep nesting: 28 > 20
+
+	\radon\cli/harvest.py:99:29:
+	\radon\cli/harvest.py:102:29:
+	\radon\cli/harvest.py:108:29:
+	\radon\cli/harvest.py:109:29:
+	\radon\cli/harvest.py:114:29:
+	\radon\cli/tools.py:155:29:
+	\radon\cli/tools.py:157:29:
+
+#179 Error: WPS220 Found too deep nesting: 32 > 20
+
+	\radon\cli/harvest.py:116:33:
+	\radon\cli/harvest.py:117:33:
+
+#180 Error: WPS220 Found too deep nesting: 36 > 20
+
+	\radon\cli/harvest.py:118:37:
+
+#181 Error: WPS430 Found nested function: caching_iterator
+
+	\radon\cli/harvest.py:140:9:
+
+#182 Error: WPS111 Found too short name: r < 2
+
+	\radon\cli/harvest.py:140:34:
+	\radon\cli/harvest.py:180:9:
+	\radon\cli/harvest.py:182:13:
+	\radon\tests/conftest.py:29:5:
+	\radon\tests/test_cli_tools.py:560:60:
+	\radon\tests/test_cli_tools.py:573:64:
+
+#183 Error: DAR101 Missing parameter(s) in Docstring: - it
+
+	\radon\cli/harvest.py:141:1:
+
+#184 Error: DAR101 Missing parameter(s) in Docstring: - r
+
+	\radon\cli/harvest.py:141:1:
+
+#185 Error: H601 class has low (42.86%) cohesion
+
+	\radon\cli/harvest.py:175:1:
+
+#186 Error: WPS110 Found wrong variable name: result
+
+	\radon\cli/harvest.py:187:9:
+	\radon\cli/harvest.py:415:9:
+	\radon\cli/tools.py:303:5:
+	\radon\cli/tools.py:321:5:
+	\radon\tests/test_cli_harvest.py:346:5:
+	\radon\tests/test_raw.py:46:21:
+	\radon\tests/test_raw.py:459:9:
+
+#187 Error: WPS110 Found wrong variable name: data
+
+	\radon\cli/harvest.py:188:18:
+
+#188 Error: WPS529 Found implicit `.get()` dict usage
+
+	\radon\cli/harvest.py:225:30:
+	\radon\cli/harvest.py:281:30:
+	\radon\cli/harvest.py:371:30:
+	\radon\cli/tools.py:341:41:
+	\radon\cli/__init__.py:306:20:
+
+#189 Error: WPS111 Found too short name: n < 2
+
+	\radon\cli/harvest.py:227:22:
+
+#190 Error: WPS354 Found consecutive `yield` expressions
+
+	\radon\cli/harvest.py:238:17:
+	\radon\tests/test_cli.py:34:5:
+
+#191 Error: WPS213 Found too many expressions: 14 > 9
+
+	\radon\cli/harvest.py:276:5:
+	\radon\tests/test_cli.py:239:1:
+
+#192 Error: WPS204 Found overused expression: {'indent': 2}; used 6 > 4
+
+	\radon\cli/harvest.py:294:17:
+
+#193 Error: WPS122 Found all unused variables definition: _get
+
+	\radon\cli/harvest.py:308:13:
+
+#194 Error: WPS111 Found too short name: k < 2
+
+	\radon\cli/harvest.py:308:27:
+
+#195 Error: WPS121 Found usage of a variable marked as unused: _get
+
+	\radon\cli/harvest.py:309:30:
+	\radon\cli/harvest.py:317:30:
+	\radon\cli/harvest.py:322:30:
+	\radon\cli/harvest.py:328:27:
+	\radon\cli/harvest.py:328:49:
+	\radon\cli/harvest.py:329:24:
+
+#196 Error: WPS526 Found implicit `yield from` usage
+
+	\radon\cli/harvest.py:311:13:
+	\radon\cli/harvest.py:405:21:
+	\radon\cli/harvest.py:410:17:
+	\radon\cli/tools.py:268:9:
+	\radon\tests/test_cli_harvest.py:45:5:
+	\radon\tests/test_cli_tools.py:27:5:
+
+#197 Error: WPS440 Found block variables overlap: header
+
+	\radon\cli/harvest.py:311:13:
+
+#198 Error: H601 class has low (38.89%) cohesion
+
+	\radon\cli/harvest.py:335:1:
+
+#199 Error: WPS337 Found multiline conditions
+
+	\radon\cli/harvest.py:348:13:
+	\radon\cli/tools.py:81:13:
+	\radon\cli/tools.py:228:5:
+	\radon\cli/tools.py:258:9:
+	\radon\cli/tools.py:280:13:
+	\radon\tests/test_complexity_utils.py:40:5:
+
+#200 Error: H601 class has low (40.00%) cohesion
+
+	\radon\cli/harvest.py:381:1:
+
+#201 Error: WPS231 Found function with too much cognitive complexity: 15 > 12
+
+	\radon\cli/harvest.py:398:5:
+	\radon\cli/tools.py:383:1:
+
+#202 Error: WPS440 Found block variables overlap: name
+
+	\radon\cli/harvest.py:403:17:
+
+#203 Error: WPS440 Found block variables overlap: name, res
+
+	\radon\cli/harvest.py:408:13:
+
+#204 Error: WPS440 Found block variables overlap: msg
+
+	\radon\cli/harvest.py:410:17:
+
+#205 Error: WPS437 Found protected attribute usage: _asdict
+
+	\radon\cli/harvest.py:420:36:
+
+#206 Error: WPS213 Found too many expressions: 13 > 9
+
+	\radon\cli/harvest.py:425:1:
+
+#207 Error: DAR101 Missing parameter(s) in Docstring: - base_indent
+
+	\radon\cli/harvest.py:426:1:
+
+#208 Error: DAR101 Missing parameter(s) in Docstring: - report
+
+	\radon\cli/harvest.py:426:1:
+
+#209 Error: WPS204 Found overused expression: {'indent': 1 + base_indent}; used 12 > 7
+
+	\radon\cli/harvest.py:427:43:
+
+#210 Error: WPS204 Found overused expression: {'indent': 1 + base_indent}; used 12 > 4
+
+	\radon\cli/harvest.py:427:43:
+
+#211 Error: WPS204 Found overused expression: 1 + base_indent; used 12 > 7
+
+	\radon\cli/harvest.py:427:54:
+
+#212 Error: WPS204 Found overused expression: 1 + base_indent; used 12 > 4
+
+	\radon\cli/harvest.py:427:54:
+
+#213 Error: WPS201 Found module with too many imports: 18 > 12
+
+	\radon\cli/tools.py:0:1:
+
+#214 Error: WPS202 Found too many module members: 16 > 7
+
+	\radon\cli/tools.py:0:1:
+
+#215 Error: WPS226 Found string constant over-use: - > 3
+
+	\radon\cli/tools.py:0:1:
+	\radon\tests/test_cli.py:0:1:
+
+#216 Error: WPS226 Found string constant over-use: utf-8 > 3
+
+	\radon\cli/tools.py:0:1:
+
+#217 Error: WPS226 Found string constant over-use: type > 3
+
+	\radon\cli/tools.py:0:1:
+	\radon\tests/test_cli_tools.py:0:1:
+
+#218 Error: WPS226 Found string constant over-use: complexity > 3
+
+	\radon\cli/tools.py:0:1:
+	\radon\tests/test_cli_tools.py:0:1:
+
+#219 Error: WPS226 Found string constant over-use: name > 3
+
+	\radon\cli/tools.py:0:1:
+	\radon\tests/test_cli_tools.py:0:1:
+
+#220 Error: S405 Using xml.etree.cElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.cElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.
+
+	\radon\cli/tools.py:15:1:
+
+#221 Error: WPS301 Found dotted raw import: xml.etree.cElementTree
+
+	\radon\cli/tools.py:15:1:
+
+#222 Error: N813 camelcase 'xml.etree.cElementTree' imported as lowercase 'et'
+
+	\radon\cli/tools.py:15:2:
+
+#223 Error: F401 'nbformat' imported but unused
+
+	\radon\cli/tools.py:24:5:
+
+#224 Error: DAR101 Missing parameter(s) in Docstring: - path
+
+	\radon\cli/tools.py:37:1:
+	\radon\cli/tools.py:217:1:
+	\radon\cli/tools.py:515:1:
+	\radon\cli/tools.py:589:1:
+
+#225 Error: WPS111 Found too short name: f < 2
+
+	\radon\cli/tools.py:42:32:
+	\radon\cli/tools.py:222:62:
+	\radon\tests/test_cli.py:189:13:
+	\radon\tests/test_ipynb.py:67:13:
+	\radon\tests/test_ipynb.py:101:13:
+
+#226 Error: DAR101 Missing parameter(s) in Docstring: - orig_enc
+
+	\radon\cli/tools.py:76:1:
+
+#227 Error: WPS432 Found magic number: 12
+
+	\radon\cli/tools.py:78:29:
+	\radon\tests/test_cli_tools.py:147:26:
+	\radon\tests/test_cli_tools.py:195:13:
+	\radon\tests/test_cli_tools.py:516:16:
+	\radon\tests/test_cli_tools.py:526:16:
+	\radon\tests/test_cli_tools.py:536:16:
+	\radon\tests/test_cli_tools.py:546:16:
+	\radon\tests/test_complexity_utils.py:57:11:
+	\radon\tests/test_other_metrics.py:48:17:
+
+#228 Error: WPS212 Found too many return statements: 10 > 5
+
+	\radon\cli/tools.py:89:9:
+
+#229 Error: WPS210 Found too many local variables: 9 > 5
+
+	\radon\cli/tools.py:89:9:
+	\radon\cli/tools.py:353:1:
+
+#230 Error: WPS231 Found function with too much cognitive complexity: 37 > 12
+
+	\radon\cli/tools.py:89:9:
+
+#231 Error: D402 First line should not be the function's "signature"
+
+	\radon\cli/tools.py:90:1:
+
+#232 Error: DAR101 Missing parameter(s) in Docstring: - readline
+
+	\radon\cli/tools.py:90:1:
+
+#233 Error: WPS609 Found direct magic attribute usage: __self__
+
+	\radon\cli/tools.py:110:28:
+
+#234 Error: WPS430 Found nested function: read_or_stop
+
+	\radon\cli/tools.py:117:13:
+
+#235 Error: WPS231 Found function with too much cognitive complexity: 17 > 12
+
+	\radon\cli/tools.py:123:13:
+
+#236 Error: WPS430 Found nested function: find_cookie
+
+	\radon\cli/tools.py:123:13:
+
+#237 Error: P101 format string does contain unindexed parameters
+
+	\radon\cli/tools.py:132:31:
+	\radon\cli/tools.py:146:31:
+	\radon\cli/tools.py:157:35:
+	\radon\cli/tools.py:362:20:
+	\radon\cli/tools.py:372:26:
+
+#238 Error: WPS442 Found outer scope names shadowing: encoding
+
+	\radon\cli/tools.py:138:17:
+
+#239 Error: WPS440 Found block variables overlap: _open_function
+
+	\radon\cli/tools.py:188:9:
+	\radon\cli/tools.py:212:9:
+
+#240 Error: DAR101 Missing parameter(s) in Docstring: - encoding
+
+	\radon\cli/tools.py:189:1:
+
+#241 Error: DAR101 Missing parameter(s) in Docstring: - filename
+
+	\radon\cli/tools.py:189:1:
+	\radon\cli/tools.py:227:1:
+	\radon\contrib/flake8.py:19:1:
+
+#242 Error: DAR401 Missing exception(s) in Raises section: -r Exception
+
+	\radon\cli/tools.py:189:1:
+
+#243 Error: WPS440 Found block variables overlap: _open
+
+	\radon\cli/tools.py:214:5:
+
+#244 Error: WPS231 Found function with too much cognitive complexity: 14 > 12
+
+	\radon\cli/tools.py:244:1:
+
+#245 Error: DAR101 Missing parameter(s) in Docstring: - exclude
+
+	\radon\cli/tools.py:245:1:
+	\radon\cli/tools.py:273:1:
+	\radon\cli/__init__.py:91:1:
+	\radon\cli/__init__.py:164:1:
+	\radon\cli/__init__.py:208:1:
+	\radon\cli/__init__.py:261:1:
+
+#246 Error: DAR101 Missing parameter(s) in Docstring: - ignore
+
+	\radon\cli/tools.py:245:1:
+	\radon\cli/tools.py:273:1:
+	\radon\cli/__init__.py:91:1:
+	\radon\cli/__init__.py:164:1:
+	\radon\cli/__init__.py:208:1:
+	\radon\cli/__init__.py:261:1:
+
+#247 Error: C405 Unnecessary tuple literal - rewrite as a set literal.
+
+	\radon\cli/tools.py:252:22:
+	\radon\cli/tools.py:307:37:
+
+#248 Error: WPS111 Found too short name: p < 2
+
+	\radon\cli/tools.py:263:57:
+	\radon\cli/tools.py:278:66:
+	\radon\cli/tools.py:289:46:
+	\radon\tests/test_cli_tools.py:36:48:
+
+#249 Error: DAR101 Missing parameter(s) in Docstring: - start
+
+	\radon\cli/tools.py:273:1:
+
+#250 Error: WPS362 Found assignment to a subscript slice
+
+	\radon\cli/tools.py:277:9:
+
+#251 Error: DAR101 Missing parameter(s) in Docstring: - patterns
+
+	\radon\cli/tools.py:287:1:
+
+#252 Error: DAR101 Missing parameter(s) in Docstring: - strings
+
+	\radon\cli/tools.py:287:1:
+
+#253 Error: WPS111 Found too short name: s < 2
+
+	\radon\cli/tools.py:288:9:
+
+#254 Error: WPS430 Found nested function: get_type
+
+	\radon\cli/tools.py:297:5:
+
+#255 Error: WPS442 Found outer scope names shadowing: obj
+
+	\radon\cli/tools.py:297:18:
+
+#256 Error: WPS437 Found protected attribute usage: _fields
+
+	\radon\cli/tools.py:307:17:
+	\radon\cli/tools.py:322:14:
+
+#257 Error: WPS111 Found too short name: a < 2
+
+	\radon\cli/tools.py:308:9:
+	\radon\cli/tools.py:322:9:
+	\radon\tests/test_cli.py:20:10:
+	\radon\tests/test_cli_tools.py:35:19:
+	\radon\tests/test_cli_tools.py:36:5:
+	\radon\tests/test_cli_tools.py:71:20:
+	\radon\tests/test_other_metrics.py:104:13:
+	\radon\tests\data/__init__.py:5:5:
+
+#258 Error: DAR101 Missing parameter(s) in Docstring: - results
+
+	\radon\cli/tools.py:330:1:
+	\radon\cli/tools.py:384:1:
+	\radon\cli/tools.py:453:1:
+
+#259 Error: D103 Missing docstring in public function
+
+	\radon\cli/tools.py:353:1:
+	\radon\cli/tools.py:597:1:
+	\radon\tests/conftest.py:8:1:
+	\radon\tests/conftest.py:28:1:
+	\radon\tests/test_cli.py:20:1:
+	\radon\tests/test_cli.py:24:1:
+	\radon\tests/test_cli.py:28:1:
+	\radon\tests/test_cli.py:32:1:
+	\radon\tests/test_cli.py:38:1:
+	\radon\tests/test_cli.py:45:1:
+	\radon\tests/test_cli.py:52:1:
+	\radon\tests/test_cli.py:57:1:
+	\radon\tests/test_cli.py:63:1:
+	\radon\tests/test_cli.py:69:1:
+	\radon\tests/test_cli.py:89:1:
+	\radon\tests/test_cli.py:122:1:
+	\radon\tests/test_cli.py:143:1:
+	\radon\tests/test_cli.py:168:1:
+	\radon\tests/test_cli.py:197:1:
+	\radon\tests/test_cli.py:201:1:
+	\radon\tests/test_cli.py:218:1:
+	\radon\tests/test_cli.py:225:1:
+	\radon\tests/test_cli.py:239:1:
+	\radon\tests/test_cli_harvest.py:36:1:
+	\radon\tests/test_cli_harvest.py:40:1:
+	\radon\tests/test_cli_harvest.py:44:1:
+	\radon\tests/test_cli_harvest.py:50:1:
+	\radon\tests/test_cli_harvest.py:55:1:
+	\radon\tests/test_cli_harvest.py:60:1:
+	\radon\tests/test_cli_harvest.py:65:1:
+	\radon\tests/test_cli_harvest.py:69:1:
+	\radon\tests/test_cli_harvest.py:77:1:
+	\radon\tests/test_cli_harvest.py:83:1:
+	\radon\tests/test_cli_harvest.py:89:1:
+	\radon\tests/test_cli_harvest.py:95:1:
+	\radon\tests/test_cli_harvest.py:101:1:
+	\radon\tests/test_cli_harvest.py:110:1:
+	\radon\tests/test_cli_harvest.py:121:1:
+	\radon\tests/test_cli_harvest.py:127:1:
+	\radon\tests/test_cli_harvest.py:145:1:
+	\radon\tests/test_cli_harvest.py:164:1:
+	\radon\tests/test_cli_harvest.py:179:1:
+	\radon\tests/test_cli_harvest.py:192:1:
+	\radon\tests/test_cli_harvest.py:223:1:
+	\radon\tests/test_cli_harvest.py:238:1:
+	\radon\tests/test_cli_harvest.py:244:1:
+	\radon\tests/test_cli_harvest.py:339:1:
+	\radon\tests/test_cli_harvest.py:353:1:
+	\radon\tests/test_cli_harvest.py:368:1:
+	\radon\tests/test_cli_harvest.py:374:1:
+	\radon\tests/test_cli_tools.py:14:1:
+	\radon\tests/test_cli_tools.py:20:1:
+	\radon\tests/test_cli_tools.py:31:1:
+	\radon\tests/test_cli_tools.py:35:1:
+	\radon\tests/test_cli_tools.py:40:1:
+	\radon\tests/test_cli_tools.py:70:1:
+	\radon\tests/test_cli_tools.py:74:1:
+	\radon\tests/test_cli_tools.py:78:1:
+	\radon\tests/test_cli_tools.py:229:1:
+	\radon\tests/test_cli_tools.py:318:1:
+	\radon\tests/test_cli_tools.py:330:1:
+	\radon\tests/test_cli_tools.py:382:1:
+	\radon\tests/test_cli_tools.py:397:1:
+	\radon\tests/test_cli_tools.py:435:1:
+	\radon\tests/test_cli_tools.py:557:1:
+	\radon\tests/test_complexity_utils.py:39:1:
+	\radon\tests/test_complexity_utils.py:63:1:
+	\radon\tests/test_complexity_utils.py:69:1:
+	\radon\tests/test_complexity_utils.py:99:1:
+	\radon\tests/test_complexity_utils.py:112:1:
+	\radon\tests/test_complexity_visitor.py:363:1:
+	\radon\tests/test_complexity_visitor.py:427:1:
+	\radon\tests/test_complexity_visitor.py:482:1:
+	\radon\tests/test_complexity_visitor.py:535:1:
+	\radon\tests/test_complexity_visitor.py:606:1:
+	\radon\tests/test_complexity_visitor.py:654:1:
+	\radon\tests/test_complexity_visitor.py:693:1:
+	\radon\tests/test_halstead.py:106:1:
+	\radon\tests/test_ipynb.py:40:1:
+	\radon\tests/test_ipynb.py:74:1:
+	\radon\tests/test_ipynb.py:108:1:
+	\radon\tests/test_ipynb.py:126:1:
+	\radon\tests/test_other_metrics.py:31:1:
+	\radon\tests/test_other_metrics.py:40:1:
+	\radon\tests/test_other_metrics.py:100:1:
+	\radon\tests/test_other_metrics.py:165:1:
+	\radon\tests/test_raw.py:46:1:
+	\radon\tests/test_raw.py:187:1:
+	\radon\tests/test_raw.py:450:1:
+	\radon\tests\data/py3unicode.py:4:1:
+	\radon\tests\data/__init__.py:4:1:
+
+#260 Error: Q001 Remove bad quotes from multiline string
+
+	\radon\cli/tools.py:354:17:
+	\radon\tests/test_cli.py:72:9:
+	\radon\tests/test_cli_tools.py:333:12:
+	\radon\tests/test_cli_tools.py:385:12:
+	\radon\tests/test_complexity_utils.py:77:9:
+	\radon\tests/test_complexity_visitor.py:13:9:
+	\radon\tests/test_complexity_visitor.py:20:9:
+	\radon\tests/test_complexity_visitor.py:28:9:
+	\radon\tests/test_complexity_visitor.py:36:9:
+	\radon\tests/test_complexity_visitor.py:45:9:
+	\radon\tests/test_complexity_visitor.py:52:9:
+	\radon\tests/test_complexity_visitor.py:60:9:
+	\radon\tests/test_complexity_visitor.py:69:9:
+	\radon\tests/test_complexity_visitor.py:77:9:
+	\radon\tests/test_complexity_visitor.py:85:9:
+	\radon\tests/test_complexity_visitor.py:92:9:
+	\radon\tests/test_complexity_visitor.py:100:9:
+	\radon\tests/test_complexity_visitor.py:107:9:
+	\radon\tests/test_complexity_visitor.py:115:9:
+	\radon\tests/test_complexity_visitor.py:122:9:
+	\radon\tests/test_complexity_visitor.py:131:9:
+	\radon\tests/test_complexity_visitor.py:138:9:
+	\radon\tests/test_complexity_visitor.py:145:9:
+	\radon\tests/test_complexity_visitor.py:152:9:
+	\radon\tests/test_complexity_visitor.py:159:9:
+	\radon\tests/test_complexity_visitor.py:166:9:
+	\radon\tests/test_complexity_visitor.py:173:9:
+	\radon\tests/test_complexity_visitor.py:181:9:
+	\radon\tests/test_complexity_visitor.py:190:9:
+	\radon\tests/test_complexity_visitor.py:198:9:
+	\radon\tests/test_complexity_visitor.py:207:9:
+	\radon\tests/test_complexity_visitor.py:218:9:
+	\radon\tests/test_complexity_visitor.py:225:9:
+	\radon\tests/test_complexity_visitor.py:232:9:
+	\radon\tests/test_complexity_visitor.py:239:9:
+	\radon\tests/test_complexity_visitor.py:246:9:
+	\radon\tests/test_complexity_visitor.py:253:9:
+	\radon\tests/test_complexity_visitor.py:260:9:
+	\radon\tests/test_complexity_visitor.py:272:9:
+	\radon\tests/test_complexity_visitor.py:285:9:
+	\radon\tests/test_complexity_visitor.py:292:9:
+	\radon\tests/test_complexity_visitor.py:299:9:
+	\radon\tests/test_complexity_visitor.py:306:9:
+	\radon\tests/test_complexity_visitor.py:314:9:
+	\radon\tests/test_complexity_visitor.py:328:9:
+	\radon\tests/test_complexity_visitor.py:335:9:
+	\radon\tests/test_complexity_visitor.py:342:9:
+	\radon\tests/test_complexity_visitor.py:349:9:
+	\radon\tests/test_complexity_visitor.py:370:9:
+	\radon\tests/test_complexity_visitor.py:381:9:
+	\radon\tests/test_complexity_visitor.py:397:9:
+	\radon\tests/test_complexity_visitor.py:415:13:
+	\radon\tests/test_complexity_visitor.py:436:9:
+	\radon\tests/test_complexity_visitor.py:453:9:
+	\radon\tests/test_complexity_visitor.py:490:9:
+	\radon\tests/test_complexity_visitor.py:509:9:
+	\radon\tests/test_complexity_visitor.py:548:9:
+	\radon\tests/test_complexity_visitor.py:570:9:
+	\radon\tests/test_complexity_visitor.py:595:9:
+	\radon\tests/test_complexity_visitor.py:623:9:
+	\radon\tests/test_complexity_visitor.py:635:9:
+	\radon\tests/test_halstead.py:13:9:
+	\radon\tests/test_halstead.py:19:9:
+	\radon\tests/test_halstead.py:26:9:
+	\radon\tests/test_halstead.py:33:9:
+	\radon\tests/test_halstead.py:39:9:
+	\radon\tests/test_halstead.py:45:9:
+	\radon\tests/test_halstead.py:52:9:
+	\radon\tests/test_halstead.py:59:9:
+	\radon\tests/test_halstead.py:67:9:
+	\radon\tests/test_halstead.py:79:9:
+	\radon\tests/test_halstead.py:91:13:
+	\radon\tests/test_other_metrics.py:46:9:
+	\radon\tests/test_other_metrics.py:51:9:
+	\radon\tests/test_other_metrics.py:108:12:
+	\radon\tests/test_other_metrics.py:137:9:
+	\radon\tests/test_other_metrics.py:143:9:
+	\radon\tests/test_raw.py:12:9:
+	\radon\tests/test_raw.py:18:9:
+	\radon\tests/test_raw.py:24:9:
+	\radon\tests/test_raw.py:30:9:
+	\radon\tests/test_raw.py:37:9:
+	\radon\tests/test_raw.py:57:9:
+	\radon\tests/test_raw.py:62:9:
+	\radon\tests/test_raw.py:68:9:
+	\radon\tests/test_raw.py:74:9:
+	\radon\tests/test_raw.py:80:9:
+	\radon\tests/test_raw.py:86:9:
+	\radon\tests/test_raw.py:92:9:
+	\radon\tests/test_raw.py:98:9:
+	\radon\tests/test_raw.py:104:9:
+	\radon\tests/test_raw.py:110:9:
+	\radon\tests/test_raw.py:116:9:
+	\radon\tests/test_raw.py:122:9:
+	\radon\tests/test_raw.py:128:9:
+	\radon\tests/test_raw.py:134:9:
+	\radon\tests/test_raw.py:140:9:
+	\radon\tests/test_raw.py:146:9:
+	\radon\tests/test_raw.py:160:9:
+	\radon\tests/test_raw.py:166:9:
+	\radon\tests/test_raw.py:172:9:
+	\radon\tests/test_raw.py:178:9:
+	\radon\tests/test_raw.py:194:9:
+	\radon\tests/test_raw.py:207:9:
+	\radon\tests/test_raw.py:218:9:
+	\radon\tests/test_raw.py:226:9:
+	\radon\tests/test_raw.py:264:9:
+	\radon\tests/test_raw.py:401:9:
+	\radon\tests/test_raw.py:416:9:
+	\radon\tests/test_raw.py:433:9:
+
+#261 Error: WPS125 Found builtin shadowing: type
+
+	\radon\cli/tools.py:367:17:
+	\radon\cli/tools.py:369:17:
+	\radon\cli/tools.py:371:17:
+	\radon\cli/__init__.py:36:30:
+
+#262 Error: WPS210 Found too many local variables: 14 > 5
+
+	\radon\cli/tools.py:383:1:
+
+#263 Error: DAR101 Missing parameter(s) in Docstring: - threshold
+
+	\radon\cli/tools.py:384:1:
+
+#264 Error: WPS110 Found wrong variable name: content
+
+	\radon\cli/tools.py:387:5:
+	\radon\cli/tools.py:509:5:
+	\radon\cli/tools.py:554:5:
+
+#265 Error: WPS528 Found implicit `.items()` usage
+
+	\radon\cli/tools.py:390:5:
+
+#266 Error: WPS110 Found wrong variable name: info
+
+	\radon\cli/tools.py:391:9:
+
+#267 Error: WPS516 Found `type()` used to compare types
+
+	\radon\cli/tools.py:392:12:
+
+#268 Error: WPS125 Found builtin shadowing: min
+
+	\radon\cli/tools.py:452:46:
+	\radon\cli/__init__.py:72:5:
+	\radon\cli/__init__.py:195:5:
+
+#269 Error: WPS125 Found builtin shadowing: max
+
+	\radon\cli/tools.py:452:51:
+	\radon\cli/__init__.py:73:5:
+	\radon\cli/__init__.py:196:5:
+
+#270 Error: DAR101 Missing parameter(s) in Docstring: - max
+
+	\radon\cli/tools.py:453:1:
+	\radon\cli/__init__.py:91:1:
+	\radon\cli/__init__.py:208:1:
+
+#271 Error: DAR101 Missing parameter(s) in Docstring: - min
+
+	\radon\cli/tools.py:453:1:
+	\radon\cli/__init__.py:91:1:
+	\radon\cli/__init__.py:208:1:
+
+#272 Error: DAR101 Missing parameter(s) in Docstring: - show_complexity
+
+	\radon\cli/tools.py:453:1:
+	\radon\cli/tools.py:486:1:
+	\radon\cli/__init__.py:91:1:
+
+#273 Error: DAR101 Missing parameter(s) in Docstring: - total_average
+
+	\radon\cli/tools.py:453:1:
+	\radon\cli/__init__.py:91:1:
+
+#274 Error: DAR101 Missing parameter(s) in Docstring: - block
+
+	\radon\cli/tools.py:486:1:
+
+#275 Error: DAR101 Missing parameter(s) in Docstring: - ranked
+
+	\radon\cli/tools.py:486:1:
+
+#276 Error: WPS211 Found too many arguments: 8 > 5
+
+	\radon\cli/tools.py:506:1:
+	\radon\cli/__init__.py:151:1:
+	\radon\cli/__init__.py:248:1:
+
+#277 Error: DAR101 Missing parameter(s) in Docstring: - beginline
+
+	\radon\cli/tools.py:515:1:
+
+#278 Error: DAR101 Missing parameter(s) in Docstring: - category
+
+	\radon\cli/tools.py:515:1:
+
+#279 Error: DAR101 Missing parameter(s) in Docstring: - content
+
+	\radon\cli/tools.py:515:1:
+
+#280 Error: DAR101 Missing parameter(s) in Docstring: - description
+
+	\radon\cli/tools.py:515:1:
+
+#281 Error: DAR101 Missing parameter(s) in Docstring: - endline
+
+	\radon\cli/tools.py:515:1:
+
+#282 Error: DAR101 Missing parameter(s) in Docstring: - fingerprint
+
+	\radon\cli/tools.py:515:1:
+
+#283 Error: DAR101 Missing parameter(s) in Docstring: - remediation_points
+
+	\radon\cli/tools.py:515:1:
+
+#284 Error: E231 missing whitespace after ','
+
+	\radon\cli/tools.py:521:36:
+	\radon\cli/tools.py:526:57:
+
+#285 Error: C819 trailing comma prohibited
+
+	\radon\cli/tools.py:521:37:
+	\radon\cli/tools.py:526:58:
+	\radon\tests/test_cli_harvest.py:31:34:
+	\radon\tests/test_cli_harvest.py:33:72:
+
+#286 Error: DAR101 Missing parameter(s) in Docstring: - grade_threshold
+
+	\radon\cli/tools.py:534:1:
+
+#287 Error: WPS432 Found magic number: 1000000
+
+	\radon\cli/tools.py:547:16:
+
+#288 Error: WPS432 Found magic number: 100000
+
+	\radon\cli/tools.py:547:26:
+
+#289 Error: WPS503 Found useless returning `else` statement
+
+	\radon\cli/tools.py:549:9:
+	\radon\cli/__init__.py:48:13:
+
+#290 Error: DAR101 Missing parameter(s) in Docstring: - additional_parts
+
+	\radon\cli/tools.py:589:1:
+
+#291 Error: S303 Use of insecure MD2, MD4, MD5, or SHA1 hash function.
+
+	\radon\cli/tools.py:590:1:
+
+#292 Error: WPS111 Found too short name: m < 2
+
+	\radon\cli/tools.py:590:5:
+	\radon\cli/__init__.py:380:5:
+	\radon\tests/test_cli_tools.py:50:5:
+
+#293 Error: WPS202 Found too many module members: 11 > 7
+
+	\radon\cli/__init__.py:0:1:
+
+#294 Error: WPS226 Found string constant over-use: exclude > 3
+
+	\radon\cli/__init__.py:0:1:
+
+#295 Error: WPS226 Found string constant over-use: ignore > 3
+
+	\radon\cli/__init__.py:0:1:
+
+#296 Error: WPS226 Found string constant over-use: output_file > 3
+
+	\radon\cli/__init__.py:0:1:
+
+#297 Error: WPS226 Found string constant over-use: include_ipynb > 3
+
+	\radon\cli/__init__.py:0:1:
+
+#298 Error: WPS226 Found string constant over-use: ipynb_cells > 3
+
+	\radon\cli/__init__.py:0:1:
+
+#299 Error: WPS226 Found string constant over-use: paths > 3
+
+	\radon\cli/__init__.py:0:1:
+
+#300 Error: WPS226 Found string constant over-use: + > 3
+
+	\radon\cli/__init__.py:0:1:
+
+#301 Error: WPS301 Found dotted raw import: radon.complexity
+
+	\radon\cli/__init__.py:10:1:
+	\radon\tests/test_cli.py:8:1:
+	\radon\tests/test_cli_harvest.py:9:1:
+
+#302 Error: N813 camelcase 'ConfigParser' imported as lowercase 'configparser'
+
+	\radon\cli/__init__.py:20:6:
+
+#303 Error: WPS440 Found block variables overlap: configparser
+
+	\radon\cli/__init__.py:22:5:
+
+#304 Error: D200 One-line docstring should fit on one line with quotes
+
+	\radon\cli/__init__.py:29:1:
+
+#305 Error: D102 Missing docstring in public method
+
+	\radon\cli/__init__.py:36:1:
+	\radon\tests/conftest.py:16:1:
+
+#306 Error: WPS605 Found method without arguments: file_config
+
+	\radon\cli/__init__.py:52:5:
+
+#307 Error: WPS515 Found `open()` used without a context manager
+
+	\radon\cli/__init__.py:58:34:
+
+#308 Error: WPS211 Found too many arguments: 18 > 5
+
+	\radon\cli/__init__.py:68:1:
+
+#309 Error: B008 Do not perform function calls in argument defaults.  The call is performed only once at function definition time. All calls to your function will reuse the result of that definition-time function call.  If this is intended, assign the function call to a module-level variable and use that variable as a default value.
+
+	\radon\cli/__init__.py:72:9:
+	\radon\cli/__init__.py:73:9:
+	\radon\cli/__init__.py:74:21:
+	\radon\cli/__init__.py:75:13:
+	\radon\cli/__init__.py:76:13:
+	\radon\cli/__init__.py:77:12:
+	\radon\cli/__init__.py:78:11:
+	\radon\cli/__init__.py:80:15:
+	\radon\cli/__init__.py:81:19:
+	\radon\cli/__init__.py:82:19:
+	\radon\cli/__init__.py:86:17:
+	\radon\cli/__init__.py:87:19:
+	\radon\cli/__init__.py:88:17:
+	\radon\cli/__init__.py:155:13:
+	\radon\cli/__init__.py:156:12:
+	\radon\cli/__init__.py:159:17:
+	\radon\cli/__init__.py:160:19:
+	\radon\cli/__init__.py:161:17:
+	\radon\cli/__init__.py:195:9:
+	\radon\cli/__init__.py:196:9:
+	\radon\cli/__init__.py:197:11:
+	\radon\cli/__init__.py:198:13:
+	\radon\cli/__init__.py:199:12:
+	\radon\cli/__init__.py:200:10:
+	\radon\cli/__init__.py:203:17:
+	\radon\cli/__init__.py:204:19:
+	\radon\cli/__init__.py:205:17:
+	\radon\cli/__init__.py:252:13:
+	\radon\cli/__init__.py:253:12:
+	\radon\cli/__init__.py:255:15:
+	\radon\cli/__init__.py:256:17:
+	\radon\cli/__init__.py:257:19:
+	\radon\cli/__init__.py:258:17:
+
+#310 Error: WPS404 Found complex default value
+
+	\radon\cli/__init__.py:72:9:
+	\radon\cli/__init__.py:73:9:
+	\radon\cli/__init__.py:74:21:
+	\radon\cli/__init__.py:75:13:
+	\radon\cli/__init__.py:76:13:
+	\radon\cli/__init__.py:77:12:
+	\radon\cli/__init__.py:78:11:
+	\radon\cli/__init__.py:80:15:
+	\radon\cli/__init__.py:81:19:
+	\radon\cli/__init__.py:82:19:
+	\radon\cli/__init__.py:86:17:
+	\radon\cli/__init__.py:87:19:
+	\radon\cli/__init__.py:88:17:
+	\radon\cli/__init__.py:155:13:
+	\radon\cli/__init__.py:156:12:
+	\radon\cli/__init__.py:159:17:
+	\radon\cli/__init__.py:160:19:
+	\radon\cli/__init__.py:161:17:
+	\radon\cli/__init__.py:195:9:
+	\radon\cli/__init__.py:196:9:
+	\radon\cli/__init__.py:197:11:
+	\radon\cli/__init__.py:198:13:
+	\radon\cli/__init__.py:199:12:
+	\radon\cli/__init__.py:200:10:
+	\radon\cli/__init__.py:203:17:
+	\radon\cli/__init__.py:204:19:
+	\radon\cli/__init__.py:205:17:
+	\radon\cli/__init__.py:252:13:
+	\radon\cli/__init__.py:253:12:
+	\radon\cli/__init__.py:255:15:
+	\radon\cli/__init__.py:256:17:
+	\radon\cli/__init__.py:257:19:
+	\radon\cli/__init__.py:258:17:
+	\radon\tests/test_cli.py:20:20:
+
+#311 Error: WPS425 Found boolean non-keyword argument: False
+
+	\radon\cli/__init__.py:74:61:
+	\radon\cli/__init__.py:75:45:
+	\radon\cli/__init__.py:80:49:
+	\radon\cli/__init__.py:81:57:
+	\radon\cli/__init__.py:82:57:
+	\radon\cli/__init__.py:87:57:
+	\radon\cli/__init__.py:88:53:
+	\radon\cli/__init__.py:160:57:
+	\radon\cli/__init__.py:161:53:
+	\radon\cli/__init__.py:200:42:
+	\radon\cli/__init__.py:204:57:
+	\radon\cli/__init__.py:205:53:
+	\radon\cli/__init__.py:255:49:
+	\radon\cli/__init__.py:257:57:
+	\radon\cli/__init__.py:258:53:
+	\radon\tests/test_cli.py:83:45:
+	\radon\tests/test_cli_tools.py:147:37:
+	\radon\tests/test_cli_tools.py:198:13:
+	\radon\tests/test_cli_tools.py:200:41:
+	\radon\tests/test_cli_tools.py:575:42:
+	\radon\tests/test_cli_tools.py:575:59:
+	\radon\tests/test_cli_tools.py:580:58:
+	\radon\tests/test_cli_tools.py:585:58:
+	\radon\tests/test_cli_tools.py:590:42:
+	\radon\tests/test_cli_tools.py:590:59:
+	\radon\tests/test_cli_tools.py:595:58:
+	\radon\tests/test_cli_tools.py:600:58:
+	\radon\tests/test_complexity_utils.py:50:29:
+
+#312 Error: DAR101 Missing parameter(s) in Docstring: - average
+
+	\radon\cli/__init__.py:91:1:
+
+#313 Error: DAR101 Missing parameter(s) in Docstring: - codeclimate
+
+	\radon\cli/__init__.py:91:1:
+
+#314 Error: DAR101 Missing parameter(s) in Docstring: - include_ipynb
+
+	\radon\cli/__init__.py:91:1:
+	\radon\cli/__init__.py:164:1:
+	\radon\cli/__init__.py:208:1:
+	\radon\cli/__init__.py:261:1:
+
+#315 Error: DAR101 Missing parameter(s) in Docstring: - ipynb_cells
+
+	\radon\cli/__init__.py:91:1:
+	\radon\cli/__init__.py:164:1:
+	\radon\cli/__init__.py:208:1:
+	\radon\cli/__init__.py:261:1:
+
+#316 Error: DAR101 Missing parameter(s) in Docstring: - json
+
+	\radon\cli/__init__.py:91:1:
+	\radon\cli/__init__.py:164:1:
+	\radon\cli/__init__.py:208:1:
+	\radon\cli/__init__.py:261:1:
+
+#317 Error: DAR101 Missing parameter(s) in Docstring: - md
+
+	\radon\cli/__init__.py:91:1:
+
+#318 Error: DAR101 Missing parameter(s) in Docstring: - no_assert
+
+	\radon\cli/__init__.py:91:1:
+
+#319 Error: DAR101 Missing parameter(s) in Docstring: - output_file
+
+	\radon\cli/__init__.py:91:1:
+	\radon\cli/__init__.py:164:1:
+	\radon\cli/__init__.py:208:1:
+	\radon\cli/__init__.py:261:1:
+
+#320 Error: DAR101 Missing parameter(s) in Docstring: - show_closures
+
+	\radon\cli/__init__.py:91:1:
+
+#321 Error: DAR101 Missing parameter(s) in Docstring: - xml
+
+	\radon\cli/__init__.py:91:1:
+
+#322 Error: B009 Do not call getattr with a constant attribute value, it is not any safer than normal property access.
+
+	\radon\cli/__init__.py:133:46:
+	\radon\tests/test_cli.py:104:19:
+	\radon\tests/test_cli_harvest.py:20:11:
+
+#323 Error: DAR101 Missing parameter(s) in Docstring: - summary
+
+	\radon\cli/__init__.py:164:1:
+
+#324 Error: WPS211 Found too many arguments: 12 > 5
+
+	\radon\cli/__init__.py:191:1:
+
+#325 Error: DAR101 Missing parameter(s) in Docstring: - show
+
+	\radon\cli/__init__.py:208:1:
+
+#326 Error: DAR101 Missing parameter(s) in Docstring: - sort
+
+	\radon\cli/__init__.py:208:1:
+
+#327 Error: DAR101 Missing parameter(s) in Docstring: - functions
+
+	\radon\cli/__init__.py:261:1:
+
+#328 Error: DAR101 Missing parameter(s) in Docstring: - attr
+
+	\radon\cli/__init__.py:302:1:
+
+#329 Error: DAR101 Missing parameter(s) in Docstring: - other
+
+	\radon\cli/__init__.py:316:1:
+
+#330 Error: DAR101 Missing parameter(s) in Docstring: - func
+
+	\radon\cli/__init__.py:322:1:
+
+#331 Error: WPS231 Found function with too much cognitive complexity: 33 > 12
+
+	\radon\cli/__init__.py:334:1:
+
+#332 Error: DAR101 Missing parameter(s) in Docstring: - harvester
+
+	\radon\cli/__init__.py:335:1:
+
+#333 Error: C815 missing trailing comma in Python 3.5+
+
+	\radon\cli/__init__.py:353:21:
+	\radon\tests/test_cli_harvest.py:28:32:
+
+#334 Error: DAR101 Missing parameter(s) in Docstring: - *args
+
+	\radon\cli/__init__.py:370:1:
+	\radon\cli/__init__.py:386:1:
+	\radon\cli/__init__.py:394:1:
+
+#335 Error: DAR101 Missing parameter(s) in Docstring: - msg
+
+	\radon\cli/__init__.py:370:1:
+	\radon\cli/__init__.py:394:1:
+
+#336 Error: DAR101 Missing parameter(s) in Docstring: - lst
+
+	\radon\cli/__init__.py:386:1:
+
+#337 Error: DAR101 Missing parameter(s) in Docstring: - outfile
+
+	\radon\cli/__init__.py:401:1:
+
+#338 Error: WPS442 Found outer scope names shadowing: outstream
+
+	\radon\cli/__init__.py:402:9:
+
+#339 Error: H601 class has low (18.75%) cohesion
+
+	\radon\contrib/flake8.py:7:1:
+
+#340 Error: WPS421 Found wrong function call: __import__
+
+	\radon\contrib/flake8.py:11:15:
+
+#341 Error: WPS323 Found `%` string formatting
+
+	\radon\contrib/flake8.py:13:19:
+
+#342 Error: DAR101 Missing parameter(s) in Docstring: - tree
+
+	\radon\contrib/flake8.py:19:1:
+
+#343 Error: DAR101 Missing parameter(s) in Docstring: - parser
+
+	\radon\contrib/flake8.py:25:1:
+
+#344 Error: WPS442 Found outer scope names shadowing: options
+
+	\radon\contrib/flake8.py:54:28:
+
+#345 Error: DAR101 Missing parameter(s) in Docstring: - options
+
+	\radon\contrib/flake8.py:56:1:
+
+#346 Error: WPS601 Found shadowed class attribute: max_cc
+
+	\radon\contrib/flake8.py:65:13:
+
+#347 Error: D104 Missing docstring in public package
+
+	\radon\contrib/__init__.py:1:1:
+	\radon\tests/__init__.py:1:1:
+	\radon\tests\data/__init__.py:1:1:
+
+#348 Error: D101 Missing docstring in public class
+
+	\radon\tests/conftest.py:12:1:
+	\radon\tests\data/no_encoding.py:1:1:
+
+#349 Error: WPS122 Found all unused variables definition: _cfg
+
+	\radon\tests/conftest.py:17:9:
+
+#350 Error: WPS121 Found usage of a variable marked as unused: _cfg
+
+	\radon\tests/conftest.py:20:25:
+
+#351 Error: D105 Missing docstring in magic method
+
+	\radon\tests/conftest.py:22:1:
+
+#352 Error: WPS603 Found using restricted magic method: __del__
+
+	\radon\tests/conftest.py:22:5:
+
+#353 Error: WPS420 Found wrong keyword: del
+
+	\radon\tests/conftest.py:31:5:
+
+#354 Error: WPS421 Found wrong function call: exit
+
+	\radon\tests/run.py:5:5:
+
+#355 Error: WPS202 Found too many module members: 19 > 7
+
+	\radon\tests/test_cli.py:0:1:
+
+#356 Error: WPS226 Found string constant over-use: a > 3
+
+	\radon\tests/test_cli.py:0:1:
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#357 Error: WPS301 Found dotted raw import: radon.cli
+
+	\radon\tests/test_cli.py:7:1:
+	\radon\tests/test_ipynb.py:6:1:
+
+#358 Error: WPS111 Found too short name: b < 2
+
+	\radon\tests/test_cli.py:20:13:
+	\radon\tests/test_cli.py:28:11:
+	\radon\tests/test_cli_tools.py:35:22:
+	\radon\tests/test_cli_tools.py:36:8:
+
+#359 Error: WPS111 Found too short name: c < 2
+
+	\radon\tests/test_cli.py:20:18:
+	\radon\tests/test_cli.py:39:5:
+	\radon\tests/test_cli.py:46:5:
+	\radon\tests/test_complexity_utils.py:113:5:
+
+#360 Error: B006 Do not use mutable data structures for argument defaults.  They are created during function definition time. All calls to the function reuse this one instance of that data structure, persisting changes between them.
+
+	\radon\tests/test_cli.py:20:20:
+
+#361 Error: WPS111 Found too short name: d < 2
+
+	\radon\tests/test_cli.py:20:24:
+	\radon\tests/test_cli_tools.py:27:9:
+
+#362 Error: S101 Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+
+	\radon\tests/test_cli.py:40:1:
+	\radon\tests/test_cli.py:41:1:
+	\radon\tests/test_cli.py:42:1:
+	\radon\tests/test_cli.py:47:1:
+	\radon\tests/test_cli.py:53:1:
+	\radon\tests/test_cli.py:54:1:
+	\radon\tests/test_cli.py:58:1:
+	\radon\tests/test_cli.py:59:1:
+	\radon\tests/test_cli.py:60:1:
+	\radon\tests/test_cli.py:64:1:
+	\radon\tests/test_cli.py:65:1:
+	\radon\tests/test_cli.py:66:1:
+	\radon\tests/test_cli.py:83:1:
+	\radon\tests/test_cli.py:84:1:
+	\radon\tests/test_cli.py:85:1:
+	\radon\tests/test_cli.py:86:1:
+	\radon\tests/test_cli.py:191:1:
+	\radon\tests/test_cli.py:215:1:
+	\radon\tests/test_cli.py:256:1:
+	\radon\tests/test_cli.py:257:1:
+	\radon\tests/test_cli_harvest.py:104:1:
+	\radon\tests/test_cli_harvest.py:105:1:
+	\radon\tests/test_cli_harvest.py:107:1:
+	\radon\tests/test_cli_harvest.py:114:1:
+	\radon\tests/test_cli_harvest.py:115:1:
+	\radon\tests/test_cli_harvest.py:116:1:
+	\radon\tests/test_cli_harvest.py:117:1:
+	\radon\tests/test_cli_harvest.py:118:1:
+	\radon\tests/test_cli_harvest.py:124:1:
+	\radon\tests/test_cli_harvest.py:138:1:
+	\radon\tests/test_cli_harvest.py:156:1:
+	\radon\tests/test_cli_harvest.py:157:1:
+	\radon\tests/test_cli_harvest.py:161:1:
+	\radon\tests/test_cli_harvest.py:171:1:
+	\radon\tests/test_cli_harvest.py:174:1:
+	\radon\tests/test_cli_harvest.py:176:1:
+	\radon\tests/test_cli_harvest.py:186:1:
+	\radon\tests/test_cli_harvest.py:187:1:
+	\radon\tests/test_cli_harvest.py:189:1:
+	\radon\tests/test_cli_harvest.py:210:1:
+	\radon\tests/test_cli_harvest.py:233:1:
+	\radon\tests/test_cli_harvest.py:286:1:
+	\radon\tests/test_cli_harvest.py:348:1:
+	\radon\tests/test_cli_harvest.py:350:1:
+	\radon\tests/test_cli_harvest.py:388:1:
+	\radon\tests/test_cli_tools.py:37:1:
+	\radon\tests/test_cli_tools.py:42:1:
+	\radon\tests/test_cli_tools.py:46:1:
+	\radon\tests/test_cli_tools.py:48:1:
+	\radon\tests/test_cli_tools.py:75:1:
+	\radon\tests/test_cli_tools.py:230:1:
+	\radon\tests/test_cli_tools.py:319:1:
+	\radon\tests/test_cli_tools.py:331:1:
+	\radon\tests/test_cli_tools.py:383:1:
+	\radon\tests/test_cli_tools.py:432:1:
+	\radon\tests/test_cli_tools.py:480:1:
+	\radon\tests/test_cli_tools.py:575:1:
+	\radon\tests/test_cli_tools.py:580:1:
+	\radon\tests/test_cli_tools.py:585:1:
+	\radon\tests/test_cli_tools.py:590:1:
+	\radon\tests/test_cli_tools.py:595:1:
+	\radon\tests/test_cli_tools.py:600:1:
+	\radon\tests/test_cli_tools.py:605:1:
+	\radon\tests/test_complexity_utils.py:46:1:
+	\radon\tests/test_complexity_utils.py:65:1:
+	\radon\tests/test_complexity_utils.py:70:1:
+	\radon\tests/test_complexity_utils.py:103:1:
+	\radon\tests/test_complexity_utils.py:104:1:
+	\radon\tests/test_complexity_utils.py:108:1:
+	\radon\tests/test_complexity_utils.py:109:1:
+	\radon\tests/test_complexity_utils.py:114:1:
+	\radon\tests/test_complexity_utils.py:115:1:
+	\radon\tests/test_complexity_utils.py:116:1:
+	\radon\tests/test_complexity_utils.py:118:1:
+	\radon\tests/test_complexity_visitor.py:365:1:
+	\radon\tests/test_complexity_visitor.py:429:1:
+	\radon\tests/test_complexity_visitor.py:430:1:
+	\radon\tests/test_complexity_visitor.py:484:1:
+	\radon\tests/test_complexity_visitor.py:485:1:
+	\radon\tests/test_complexity_visitor.py:539:1:
+	\radon\tests/test_complexity_visitor.py:540:1:
+	\radon\tests/test_complexity_visitor.py:542:1:
+	\radon\tests/test_complexity_visitor.py:543:1:
+	\radon\tests/test_complexity_visitor.py:615:1:
+	\radon\tests/test_complexity_visitor.py:616:1:
+	\radon\tests/test_complexity_visitor.py:617:1:
+	\radon\tests/test_complexity_visitor.py:618:1:
+	\radon\tests/test_complexity_visitor.py:661:1:
+	\radon\tests/test_complexity_visitor.py:664:1:
+	\radon\tests/test_complexity_visitor.py:667:1:
+	\radon\tests/test_complexity_visitor.py:668:1:
+	\radon\tests/test_complexity_visitor.py:672:1:
+	\radon\tests/test_complexity_visitor.py:698:1:
+	\radon\tests/test_complexity_visitor.py:699:1:
+	\radon\tests/test_complexity_visitor.py:700:1:
+	\radon\tests/test_halstead.py:108:1:
+	\radon\tests/test_ipynb.py:34:1:
+	\radon\tests/test_ipynb.py:35:1:
+	\radon\tests/test_ipynb.py:36:1:
+	\radon\tests/test_ipynb.py:70:1:
+	\radon\tests/test_ipynb.py:104:1:
+	\radon\tests/test_ipynb.py:114:1:
+	\radon\tests/test_ipynb.py:115:1:
+	\radon\tests/test_ipynb.py:116:1:
+	\radon\tests/test_ipynb.py:117:1:
+	\radon\tests/test_ipynb.py:118:1:
+	\radon\tests/test_ipynb.py:119:1:
+	\radon\tests/test_ipynb.py:120:1:
+	\radon\tests/test_ipynb.py:121:1:
+	\radon\tests/test_ipynb.py:122:1:
+	\radon\tests/test_ipynb.py:133:1:
+	\radon\tests/test_ipynb.py:134:1:
+	\radon\tests/test_ipynb.py:135:1:
+	\radon\tests/test_ipynb.py:136:1:
+	\radon\tests/test_ipynb.py:137:1:
+	\radon\tests/test_ipynb.py:138:1:
+	\radon\tests/test_ipynb.py:139:1:
+	\radon\tests/test_ipynb.py:140:1:
+	\radon\tests/test_ipynb.py:141:1:
+	\radon\tests/test_other_metrics.py:33:1:
+	\radon\tests/test_other_metrics.py:41:1:
+	\radon\tests/test_other_metrics.py:105:1:
+	\radon\tests/test_other_metrics.py:169:1:
+	\radon\tests/test_raw.py:52:1:
+	\radon\tests/test_raw.py:189:1:
+	\radon\tests/test_raw.py:460:1:
+	\radon\tests/test_raw.py:461:1:
+
+#363 Error: WPS609 Found direct magic attribute usage: __dict__
+
+	\radon\tests/test_cli.py:47:12:
+
+#364 Error: WPS428 Found statement that has no effect
+
+	\radon\tests/test_cli.py:49:9:
+
+#365 Error: P103 other string does contain unindexed parameters
+
+	\radon\tests/test_cli.py:53:33:
+	\radon\tests/test_complexity_visitor.py:646:0:
+
+#366 Error: Q003 Change outer quotes to avoid escaping inner quotes
+
+	\radon\tests/test_cli.py:54:36:
+	\radon\tests/test_complexity_utils.py:118:37:
+
+#367 Error: WPS302 Found unicode string prefix: u'''
+
+	\radon\tests/test_cli.py:72:9:
+
+#368 Error:        [radon]
+
+	
+
+#369 Error:        str_test = B
+
+	
+
+#370 Error:        int_test = 19
+
+	
+
+#371 Error:        bool_test = true
+
+	
+
+#372 Error:        '''
+
+	
+
+#373 Error: WPS355 Found an unnecessary blank line before a bracket
+
+	\radon\tests/test_cli.py:78:5:
+	\radon\tests/test_cli_tools.py:394:5:
+
+#374 Error: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+
+	\radon\tests/test_cli.py:83:52:
+	\radon\tests/test_ipynb.py:114:43:
+
+#375 Error: WPS210 Found too many local variables: 12 > 5
+
+	\radon\tests/test_cli.py:168:1:
+
+#376 Error: C407 Unnecessary list comprehension - 'any' can take a generator.
+
+	\radon\tests/test_cli.py:191:24:
+
+#377 Error: WPS442 Found outer scope names shadowing: stdout_mock
+
+	\radon\tests/test_cli.py:201:22:
+	\radon\tests/test_cli.py:218:19:
+	\radon\tests/test_cli.py:225:28:
+	\radon\tests/test_cli.py:239:29:
+
+#378 Error: WPS609 Found direct magic attribute usage: __str__
+
+	\radon\tests/test_cli.py:230:5:
+	\radon\tests/test_cli.py:231:5:
+	\radon\tests/test_cli.py:232:5:
+
+#379 Error: E501 line too long (81 > 79 characters)
+
+	\radon\tests/test_cli.py:272:80:
+
+#380 Error: WPS202 Found too many module members: 27 > 7
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#381 Error: WPS226 Found string constant over-use: A > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+	\radon\tests/test_cli_tools.py:0:1:
+
+#382 Error: WPS226 Found string constant over-use: B > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+	\radon\tests/test_cli_tools.py:0:1:
+
+#383 Error: WPS226 Found string constant over-use: C > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#384 Error: WPS226 Found string constant over-use: mystr > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#385 Error: WPS226 Found string constant over-use: b > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#386 Error: WPS226 Found string constant over-use: c > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#387 Error: WPS226 Found string constant over-use: __R__ > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#388 Error: WPS226 Found string constant over-use: {0}: {1} > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#389 Error: WPS226 Found string constant over-use: LOC > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#390 Error: WPS226 Found string constant over-use: LLOC > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#391 Error: WPS226 Found string constant over-use: SLOC > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#392 Error: WPS226 Found string constant over-use: Comments > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#393 Error: WPS226 Found string constant over-use: Single comments > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#394 Error: WPS226 Found string constant over-use: Multi > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#395 Error: WPS226 Found string constant over-use: Blank > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#396 Error: WPS226 Found string constant over-use: - Comment Stats > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#397 Error: WPS226 Found string constant over-use: (C % L): {0:.0%} > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#398 Error: WPS226 Found string constant over-use: (C % S): {0:.0%} > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#399 Error: WPS226 Found string constant over-use: (C + M % L): {0:.0%} > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#400 Error: WPS226 Found string constant over-use: mi > 3
+
+	\radon\tests/test_cli_harvest.py:0:1:
+
+#401 Error: WPS301 Found dotted raw import: collections.abc
+
+	\radon\tests/test_cli_harvest.py:2:5:
+
+#402 Error: WPS440 Found block variables overlap: collections_abc
+
+	\radon\tests/test_cli_harvest.py:4:5:
+
+#403 Error: WPS301 Found dotted raw import: radon.cli.harvest
+
+	\radon\tests/test_cli_harvest.py:8:1:
+
+#404 Error: WPS432 Found magic number: 42
+
+	\radon\tests/test_cli_harvest.py:37:12:
+
+#405 Error: WPS111 Found too short name: i < 2
+
+	\radon\tests/test_cli_harvest.py:45:9:
+	\radon\tests/test_cli_harvest.py:147:35:
+	\radon\tests/test_cli_tools.py:425:9:
+	\radon\tests/test_cli_tools.py:429:9:
+	\radon\tests/test_cli_tools.py:473:9:
+	\radon\tests/test_cli_tools.py:477:9:
+
+#406 Error: WPS442 Found outer scope names shadowing: base_config
+
+	\radon\tests/test_cli_harvest.py:69:30:
+	\radon\tests/test_cli_harvest.py:77:38:
+	\radon\tests/test_cli_harvest.py:83:38:
+	\radon\tests/test_cli_harvest.py:89:37:
+	\radon\tests/test_cli_harvest.py:95:43:
+	\radon\tests/test_cli_harvest.py:101:19:
+	\radon\tests/test_cli_harvest.py:110:23:
+	\radon\tests/test_cli_harvest.py:121:23:
+
+#407 Error: WPS437 Found protected attribute usage: _iter_filenames
+
+	\radon\tests/test_cli_harvest.py:72:5:
+	\radon\tests/test_ipynb.py:33:22:
+
+#408 Error: WPS437 Found protected attribute usage: _results
+
+	\radon\tests/test_cli_harvest.py:123:5:
+	\radon\tests/test_cli_harvest.py:154:5:
+	\radon\tests/test_cli_harvest.py:160:5:
+	\radon\tests/test_cli_harvest.py:197:5:
+	\radon\tests/test_cli_harvest.py:246:5:
+	\radon\tests/test_cli_harvest.py:357:5:
+	\radon\tests/test_cli_harvest.py:365:37:
+	\radon\tests/test_cli_harvest.py:365:52:
+	\radon\tests/test_cli_harvest.py:381:5:
+
+#409 Error: WPS442 Found outer scope names shadowing: cc_config
+
+	\radon\tests/test_cli_harvest.py:127:20:
+	\radon\tests/test_cli_harvest.py:145:22:
+	\radon\tests/test_cli_harvest.py:164:25:
+	\radon\tests/test_cli_harvest.py:179:19:
+	\radon\tests/test_cli_harvest.py:192:25:
+
+#410 Error: WPS437 Found protected attribute usage: _to_dicts
+
+	\radon\tests/test_cli_harvest.py:156:12:
+	\radon\tests/test_cli_harvest.py:161:12:
+	\radon\tests/test_cli_harvest.py:170:5:
+	\radon\tests/test_cli_harvest.py:185:5:
+
+#411 Error: WPS609 Found direct magic attribute usage: __getitem__
+
+	\radon\tests/test_cli_harvest.py:199:5:
+	\radon\tests/test_cli_harvest.py:377:5:
+
+#412 Error: WPS609 Found direct magic attribute usage: __eq__
+
+	\radon\tests/test_cli_harvest.py:200:5:
+	\radon\tests/test_cli_harvest.py:378:5:
+
+#413 Error: WPS111 Found too short name: o < 2
+
+	\radon\tests/test_cli_harvest.py:200:44:
+	\radon\tests/test_cli_harvest.py:378:44:
+
+#414 Error: WPS204 Found overused expression: {'indent': 1}; used 33 > 7
+
+	\radon\tests/test_cli_harvest.py:213:23:
+
+#415 Error: WPS442 Found outer scope names shadowing: raw_config
+
+	\radon\tests/test_cli_harvest.py:223:21:
+	\radon\tests/test_cli_harvest.py:238:21:
+	\radon\tests/test_cli_harvest.py:244:26:
+
+#416 Error: WPS204 Found overused expression: {'indent': 1}; used 32 > 4
+
+	\radon\tests/test_cli_harvest.py:289:35:
+
+#417 Error: WPS204 Found overused expression: {'indent': 2}; used 12 > 7
+
+	\radon\tests/test_cli_harvest.py:297:40:
+
+#418 Error: WPS204 Found overused expression: {'indent': 2}; used 12 > 4
+
+	\radon\tests/test_cli_harvest.py:297:40:
+
+#419 Error: WPS442 Found outer scope names shadowing: mi_config
+
+	\radon\tests/test_cli_harvest.py:339:20:
+	\radon\tests/test_cli_harvest.py:353:21:
+	\radon\tests/test_cli_harvest.py:368:20:
+	\radon\tests/test_cli_harvest.py:374:25:
+
+#420 Error: C406 Unnecessary list literal - rewrite as a dict literal.
+
+	\radon\tests/test_cli_harvest.py:365:31:
+
+#421 Error: WPS111 Found too short name: j < 2
+
+	\radon\tests/test_cli_harvest.py:377:49:
+
+#422 Error: WPS202 Found too many module members: 15 > 7
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#423 Error: WPS226 Found string constant over-use: file.py > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#424 Error: WPS226 Found string constant over-use: amod.py > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#425 Error: WPS226 Found string constant over-use: test_all.py > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#426 Error: WPS226 Found string constant over-use: randomfile.py > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#427 Error: WPS226 Found string constant over-use: random/path > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#428 Error: WPS226 Found string constant over-use: tests/run.py > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#429 Error: WPS226 Found string constant over-use: sub/amod.py > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#430 Error: WPS226 Found string constant over-use: sub/bmod.py > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#431 Error: WPS226 Found string constant over-use: lineno > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#432 Error: WPS226 Found string constant over-use: col_offset > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#433 Error: WPS226 Found string constant over-use: endline > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#434 Error: WPS226 Found string constant over-use: closures > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#435 Error: WPS226 Found string constant over-use: function > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#436 Error: WPS226 Found string constant over-use: Classname > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#437 Error: WPS226 Found string constant over-use: is_method > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#438 Error: WPS226 Found string constant over-use: filename > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#439 Error: WPS226 Found string constant over-use: Complexity > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#440 Error: WPS226 Found string constant over-use: F > 3
+
+	\radon\tests/test_cli_tools.py:0:1:
+
+#441 Error: WPS301 Found dotted raw import: radon.cli.tools
+
+	\radon\tests/test_cli_tools.py:9:1:
+
+#442 Error: WPS531 Found simplifiable returning `if` condition in a function
+
+	\radon\tests/test_cli_tools.py:15:5:
+
+#443 Error: WPS110 Found wrong variable name: contents
+
+	\radon\tests/test_cli_tools.py:22:5:
+
+#444 Error: WPS437 Found protected attribute usage: _open
+
+	\radon\tests/test_cli_tools.py:41:10:
+	\radon\tests/test_cli_tools.py:45:14:
+	\radon\tests/test_cli_tools.py:54:9:
+	\radon\tests/test_cli_tools.py:58:9:
+
+#445 Error: WPS440 Found block variables overlap: fobj
+
+	\radon\tests/test_cli_tools.py:45:9:
+
+#446 Error: WPS444 Found incorrect keyword condition
+
+	\radon\tests/test_cli_tools.py:46:20:
+	\radon\tests/test_cli_tools.py:48:16:
+
+#447 Error: B011 Do not call assert False since python -O removes these calls. Instead callers should raise AssertionError().
+
+	\radon\tests/test_cli_tools.py:48:9:
+
+#448 Error: WPS609 Found direct magic attribute usage: __enter__
+
+	\radon\tests/test_cli_tools.py:54:9:
+	\radon\tests/test_cli_tools.py:58:9:
+
+#449 Error: WPS442 Found outer scope names shadowing: iter_files
+
+	\radon\tests/test_cli_tools.py:74:27:
+	\radon\tests/test_cli_tools.py:78:29:
+
+#450 Error: WPS122 Found all unused variables definition: _orig_walk
+
+	\radon\tests/test_cli_tools.py:86:5:
+
+#451 Error: WPS122 Found all unused variables definition: _orig_is_python_file
+
+	\radon\tests/test_cli_tools.py:88:5:
+
+#452 Error: WPS437 Found protected attribute usage: _is_python_file
+
+	\radon\tests/test_cli_tools.py:88:28:
+	\radon\tests/test_cli_tools.py:89:5:
+	\radon\tests/test_cli_tools.py:141:5:
+
+#453 Error: WPS204 Found overused expression: ['file.py', 'random/path']; used 6 > 4
+
+	\radon\tests/test_cli_tools.py:92:20:
+
+#454 Error: WPS121 Found usage of a variable marked as unused: _orig_is_python_file
+
+	\radon\tests/test_cli_tools.py:141:29:
+
+#455 Error: WPS121 Found usage of a variable marked as unused: _orig_walk
+
+	\radon\tests/test_cli_tools.py:142:19:
+
+#456 Error: WPS432 Found magic number: 16
+
+	\radon\tests/test_cli_tools.py:147:33:
+	\radon\tests/test_cli_tools.py:197:13:
+	\radon\tests/test_cli_tools.py:518:17:
+	\radon\tests/test_cli_tools.py:528:17:
+	\radon\tests/test_cli_tools.py:538:17:
+	\radon\tests/test_cli_tools.py:548:17:
+
+#457 Error: WPS432 Found magic number: 17
+
+	\radon\tests/test_cli_tools.py:162:13:
+	\radon\tests/test_cli_tools.py:200:37:
+	\radon\tests/test_cli_tools.py:486:16:
+
+#458 Error: WPS432 Found magic number: 29
+
+	\radon\tests/test_cli_tools.py:164:13:
+	\radon\tests/test_cli_tools.py:488:17:
+
+#459 Error: WPS432 Found magic number: 26
+
+	\radon\tests/test_cli_tools.py:165:38:
+	\radon\tests/test_cli_tools.py:494:25:
+	\radon\tests/test_cli_tools.py:508:17:
+
+#460 Error: WPS432 Found magic number: 13
+
+	\radon\tests/test_cli_tools.py:200:30:
+	\radon\tests/test_ipynb.py:140:41:
+
+#461 Error: WPS432 Found magic number: 103
+
+	\radon\tests/test_cli_tools.py:319:37:
+
+#462 Error: WPS432 Found magic number: 123
+
+	\radon\tests/test_cli_tools.py:319:42:
+
+#463 Error: WPS432 Found magic number: 98
+
+	\radon\tests/test_cli_tools.py:319:47:
+
+#464 Error: WPS462 Wrong multiline string usage
+
+	\radon\tests/test_cli_tools.py:333:9:
+	\radon\tests/test_cli_tools.py:374:22:
+	\radon\tests/test_cli_tools.py:385:9:
+	\radon\tests/test_complexity_utils.py:76:6:
+	\radon\tests/test_complexity_visitor.py:12:6:
+	\radon\tests/test_complexity_visitor.py:19:6:
+	\radon\tests/test_complexity_visitor.py:27:6:
+	\radon\tests/test_complexity_visitor.py:35:6:
+	\radon\tests/test_complexity_visitor.py:44:6:
+	\radon\tests/test_complexity_visitor.py:51:6:
+	\radon\tests/test_complexity_visitor.py:59:6:
+	\radon\tests/test_complexity_visitor.py:68:6:
+	\radon\tests/test_complexity_visitor.py:76:6:
+	\radon\tests/test_complexity_visitor.py:84:6:
+	\radon\tests/test_complexity_visitor.py:91:6:
+	\radon\tests/test_complexity_visitor.py:99:6:
+	\radon\tests/test_complexity_visitor.py:106:6:
+	\radon\tests/test_complexity_visitor.py:114:6:
+	\radon\tests/test_complexity_visitor.py:121:6:
+	\radon\tests/test_complexity_visitor.py:130:6:
+	\radon\tests/test_complexity_visitor.py:137:6:
+	\radon\tests/test_complexity_visitor.py:144:6:
+	\radon\tests/test_complexity_visitor.py:151:6:
+	\radon\tests/test_complexity_visitor.py:158:6:
+	\radon\tests/test_complexity_visitor.py:165:6:
+	\radon\tests/test_complexity_visitor.py:172:6:
+	\radon\tests/test_complexity_visitor.py:180:6:
+	\radon\tests/test_complexity_visitor.py:189:6:
+	\radon\tests/test_complexity_visitor.py:197:6:
+	\radon\tests/test_complexity_visitor.py:206:6:
+	\radon\tests/test_complexity_visitor.py:217:6:
+	\radon\tests/test_complexity_visitor.py:224:6:
+	\radon\tests/test_complexity_visitor.py:231:6:
+	\radon\tests/test_complexity_visitor.py:238:6:
+	\radon\tests/test_complexity_visitor.py:245:6:
+	\radon\tests/test_complexity_visitor.py:252:6:
+	\radon\tests/test_complexity_visitor.py:259:6:
+	\radon\tests/test_complexity_visitor.py:271:6:
+	\radon\tests/test_complexity_visitor.py:284:6:
+	\radon\tests/test_complexity_visitor.py:291:6:
+	\radon\tests/test_complexity_visitor.py:298:6:
+	\radon\tests/test_complexity_visitor.py:305:6:
+	\radon\tests/test_complexity_visitor.py:313:6:
+	\radon\tests/test_complexity_visitor.py:327:6:
+	\radon\tests/test_complexity_visitor.py:334:6:
+	\radon\tests/test_complexity_visitor.py:341:6:
+	\radon\tests/test_complexity_visitor.py:348:6:
+	\radon\tests/test_complexity_visitor.py:369:6:
+	\radon\tests/test_complexity_visitor.py:380:6:
+	\radon\tests/test_complexity_visitor.py:396:6:
+	\radon\tests/test_complexity_visitor.py:414:10:
+	\radon\tests/test_complexity_visitor.py:435:6:
+	\radon\tests/test_complexity_visitor.py:452:6:
+	\radon\tests/test_complexity_visitor.py:489:6:
+	\radon\tests/test_complexity_visitor.py:508:6:
+	\radon\tests/test_complexity_visitor.py:547:6:
+	\radon\tests/test_complexity_visitor.py:569:6:
+	\radon\tests/test_complexity_visitor.py:594:6:
+	\radon\tests/test_complexity_visitor.py:622:6:
+	\radon\tests/test_complexity_visitor.py:634:6:
+	\radon\tests/test_halstead.py:12:6:
+	\radon\tests/test_halstead.py:18:6:
+	\radon\tests/test_halstead.py:25:6:
+	\radon\tests/test_halstead.py:32:6:
+	\radon\tests/test_halstead.py:38:6:
+	\radon\tests/test_halstead.py:44:6:
+	\radon\tests/test_halstead.py:51:6:
+	\radon\tests/test_halstead.py:58:6:
+	\radon\tests/test_halstead.py:66:6:
+	\radon\tests/test_halstead.py:78:6:
+	\radon\tests/test_halstead.py:90:10:
+	\radon\tests/test_other_metrics.py:45:6:
+	\radon\tests/test_other_metrics.py:50:6:
+	\radon\tests/test_other_metrics.py:136:6:
+	\radon\tests/test_other_metrics.py:142:6:
+	\radon\tests/test_raw.py:11:6:
+	\radon\tests/test_raw.py:17:6:
+	\radon\tests/test_raw.py:23:6:
+	\radon\tests/test_raw.py:29:6:
+	\radon\tests/test_raw.py:36:6:
+	\radon\tests/test_raw.py:56:6:
+	\radon\tests/test_raw.py:61:6:
+	\radon\tests/test_raw.py:67:6:
+	\radon\tests/test_raw.py:73:6:
+	\radon\tests/test_raw.py:79:6:
+	\radon\tests/test_raw.py:85:6:
+	\radon\tests/test_raw.py:91:6:
+	\radon\tests/test_raw.py:97:6:
+	\radon\tests/test_raw.py:103:6:
+	\radon\tests/test_raw.py:109:6:
+	\radon\tests/test_raw.py:115:6:
+	\radon\tests/test_raw.py:121:6:
+	\radon\tests/test_raw.py:127:6:
+	\radon\tests/test_raw.py:133:6:
+	\radon\tests/test_raw.py:139:6:
+	\radon\tests/test_raw.py:145:6:
+	\radon\tests/test_raw.py:151:6:
+	\radon\tests/test_raw.py:159:6:
+	\radon\tests/test_raw.py:165:6:
+	\radon\tests/test_raw.py:171:6:
+	\radon\tests/test_raw.py:177:6:
+	\radon\tests/test_raw.py:193:6:
+	\radon\tests/test_raw.py:198:6:
+	\radon\tests/test_raw.py:206:6:
+	\radon\tests/test_raw.py:217:6:
+	\radon\tests/test_raw.py:225:6:
+	\radon\tests/test_raw.py:238:6:
+	\radon\tests/test_raw.py:246:6:
+	\radon\tests/test_raw.py:263:6:
+	\radon\tests/test_raw.py:270:6:
+	\radon\tests/test_raw.py:280:6:
+	\radon\tests/test_raw.py:291:6:
+	\radon\tests/test_raw.py:304:6:
+	\radon\tests/test_raw.py:366:6:
+	\radon\tests/test_raw.py:378:6:
+	\radon\tests/test_raw.py:386:6:
+	\radon\tests/test_raw.py:393:6:
+	\radon\tests/test_raw.py:408:6:
+
+#465 Error: WPS210 Found too many local variables: 6 > 5
+
+	\radon\tests/test_cli_tools.py:397:1:
+
+#466 Error: E501 line too long (84 > 79 characters)
+
+	\radon\tests/test_cli_tools.py:403:80:
+
+#467 Error: E501 line too long (86 > 79 characters)
+
+	\radon\tests/test_cli_tools.py:406:80:
+
+#468 Error: WPS440 Found block variables overlap: i
+
+	\radon\tests/test_cli_tools.py:429:5:
+	\radon\tests/test_cli_tools.py:477:5:
+
+#469 Error: E501 line too long (88 > 79 characters)
+
+	\radon\tests/test_cli_tools.py:442:80:
+
+#470 Error: E501 line too long (91 > 79 characters)
+
+	\radon\tests/test_cli_tools.py:457:80:
+
+#471 Error: WPS432 Found magic number: 14
+
+	\radon\tests/test_cli_tools.py:522:20:
+	\radon\tests/test_complexity_utils.py:57:20:
+	\radon\tests/test_ipynb.py:121:36:
+
+#472 Error: WPS432 Found magic number: 22
+
+	\radon\tests/test_cli_tools.py:532:20:
+
+#473 Error: WPS432 Found magic number: 32
+
+	\radon\tests/test_cli_tools.py:542:20:
+
+#474 Error: WPS432 Found magic number: 41
+
+	\radon\tests/test_cli_tools.py:552:20:
+
+#475 Error: WPS218 Found too many `assert` statements: 7 > 5
+
+	\radon\tests/test_cli_tools.py:557:1:
+
+#476 Error: C402 Unnecessary generator - rewrite as a dict comprehension.
+
+	\radon\tests/test_cli_tools.py:559:28:
+	\radon\tests/test_cli_tools.py:560:26:
+
+#477 Error: F403 'from radon.complexity import *' used; unable to detect undefined names
+
+	\radon\tests/test_complexity_utils.py:6:1:
+
+#478 Error: WPS347 Found vague import that may cause confusion: *
+
+	\radon\tests/test_complexity_utils.py:6:1:
+	\radon\tests/test_complexity_visitor.py:6:1:
+	\radon\tests/test_other_metrics.py:5:1:
+	\radon\tests/test_raw.py:5:1:
+
+#479 Error: WPS300 Found local folder import
+
+	\radon\tests/test_complexity_utils.py:10:1:
+
+#480 Error: WPS430 Found nested function: lambda
+
+	\radon\tests/test_complexity_utils.py:12:25:
+
+#481 Error: WPS231 Found function with too much cognitive complexity: 21 > 12
+
+	\radon\tests/test_complexity_utils.py:15:1:
+
+#482 Error: WPS223 Found too many `elif` branches: 5 > 3
+
+	\radon\tests/test_complexity_utils.py:18:5:
+
+#483 Error: WPS432 Found magic number: 11
+
+	\radon\tests/test_complexity_utils.py:24:10:
+
+#484 Error: WPS432 Found magic number: 20
+
+	\radon\tests/test_complexity_utils.py:24:25:
+	\radon\tests/test_other_metrics.py:13:24:
+	\radon\tests/test_other_metrics.py:15:10:
+
+#485 Error: WPS432 Found magic number: 21
+
+	\radon\tests/test_complexity_utils.py:26:10:
+	\radon\tests/test_complexity_utils.py:52:50:
+	\radon\tests/test_complexity_utils.py:58:35:
+
+#486 Error: WPS432 Found magic number: 30
+
+	\radon\tests/test_complexity_utils.py:26:25:
+
+#487 Error: WPS432 Found magic number: 31
+
+	\radon\tests/test_complexity_utils.py:28:10:
+
+#488 Error: WPS432 Found magic number: 40
+
+	\radon\tests/test_complexity_utils.py:28:25:
+
+#489 Error: B004 Using `hasattr(x, '__call__')` to test if `x` is callable is unreliable. If `x` implements custom `__getattr__` or its `__call__` is itself not callable, you might get misleading results. Use `callable(x)` for consistent results.
+
+	\radon\tests/test_complexity_utils.py:40:8:
+
+#490 Error: F405 'cc_rank' may be undefined, or defined from star imports: radon.complexity
+
+	\radon\tests/test_complexity_utils.py:44:13:
+	\radon\tests/test_complexity_utils.py:46:16:
+
+#491 Error: WPS432 Found magic number: 23
+
+	\radon\tests/test_complexity_utils.py:50:25:
+
+#492 Error: WPS432 Found magic number: 18
+
+	\radon\tests/test_complexity_utils.py:52:54:
+
+#493 Error: F405 'sorted_results' may be undefined, or defined from star imports: radon.complexity
+
+	\radon\tests/test_complexity_utils.py:65:12:
+
+#494 Error: F405 'average_complexity' may be undefined, or defined from star imports: radon.complexity
+
+	\radon\tests/test_complexity_utils.py:70:12:
+
+#495 Error: F405 'cc_visit' may be undefined, or defined from star imports: radon.complexity
+
+	\radon\tests/test_complexity_utils.py:102:14:
+
+#496 Error: F405 'add_inner_blocks' may be undefined, or defined from star imports: radon.complexity
+
+	\radon\tests/test_complexity_utils.py:106:25:
+
+#497 Error: WPS520 Found compare with falsy constant
+
+	\radon\tests/test_complexity_utils.py:116:29:
+
+#498 Error: WPS226 Found string constant over-use: code,expected > 3
+
+	\radon\tests/test_complexity_visitor.py:0:1:
+
+#499 Error: WPS226 Found string constant over-use: cls > 3
+
+	\radon\tests/test_complexity_visitor.py:0:1:
+
+#500 Error: F403 'from radon.visitors import *' used; unable to detect undefined names
+
+	\radon\tests/test_complexity_visitor.py:6:1:
+
+#501 Error: WPS442 Found outer scope names shadowing: code
+
+	\radon\tests/test_complexity_visitor.py:363:25:
+	\radon\tests/test_complexity_visitor.py:427:35:
+	\radon\tests/test_complexity_visitor.py:482:28:
+	\radon\tests/test_complexity_visitor.py:535:26:
+	\radon\tests/test_complexity_visitor.py:606:25:
+	\radon\tests/test_complexity_visitor.py:654:27:
+	\radon\tests/test_halstead.py:106:18:
+	\radon\tests/test_other_metrics.py:100:18:
+	\radon\tests/test_other_metrics.py:101:5:
+	\radon\tests/test_other_metrics.py:165:19:
+	\radon\tests/test_other_metrics.py:166:5:
+	\radon\tests/test_raw.py:46:15:
+	\radon\tests/test_raw.py:47:5:
+	\radon\tests/test_raw.py:187:18:
+	\radon\tests/test_raw.py:188:5:
+	\radon\tests/test_raw.py:450:18:
+	\radon\tests/test_raw.py:451:5:
+
+#502 Error: F405 'ComplexityVisitor' may be undefined, or defined from star imports: radon.visitors
+
+	\radon\tests/test_complexity_visitor.py:364:15:
+	\radon\tests/test_complexity_visitor.py:428:15:
+	\radon\tests/test_complexity_visitor.py:483:15:
+	\radon\tests/test_complexity_visitor.py:538:15:
+	\radon\tests/test_complexity_visitor.py:614:15:
+	\radon\tests/test_complexity_visitor.py:655:15:
+
+#503 Error: WPS342 Found implicit raw string: '''
+
+	\radon\tests/test_complexity_visitor.py:415:13:
+
+#504 Error:         async def f(a, b):
+
+	
+
+#505 Error:            async with open('blabla.log', 'w') as f:
+
+	
+
+#506 Error:                async for i in range(100):
+
+	
+
+#507 Error:                    f.write(str(i) + '\\n')
+
+	
+
+#508 Error:         '''
+
+	
+
+#509 Error: F405 'GET_COMPLEXITY' may be undefined, or defined from star imports: radon.visitors
+
+	\radon\tests/test_complexity_visitor.py:485:22:
+	\radon\tests/test_complexity_visitor.py:543:22:
+
+#510 Error: WPS507 Found useless `len()` compare
+
+	\radon\tests/test_complexity_visitor.py:540:12:
+
+#511 Error: WPS434 Found reassigning variable to itself: closure_names
+
+	\radon\tests/test_complexity_visitor.py:657:5:
+
+#512 Error: F405 'Function' may be undefined, or defined from star imports: radon.visitors
+
+	\radon\tests/test_complexity_visitor.py:696:11:
+
+#513 Error: F405 'Class' may be undefined, or defined from star imports: radon.visitors
+
+	\radon\tests/test_complexity_visitor.py:696:45:
+
+#514 Error: WPS226 Found string constant over-use: nbformat not installed > 3
+
+	\radon\tests/test_ipynb.py:0:1:
+
+#515 Error: WPS450 Found protected object import: _is_python_file
+
+	\radon\tests/test_ipynb.py:14:1:
+
+#516 Error: DAR101 Missing parameter(s) in Docstring: - log_mock
+
+	\radon\tests/test_ipynb.py:31:1:
+
+#517 Error: WPS210 Found too many local variables: 11 > 5
+
+	\radon\tests/test_ipynb.py:39:1:
+	\radon\tests/test_ipynb.py:73:1:
+
+#518 Error: WPS218 Found too many `assert` statements: 9 > 5
+
+	\radon\tests/test_ipynb.py:107:1:
+	\radon\tests/test_ipynb.py:125:1:
+
+#519 Error: WPS204 Found overused expression: out[target]; used 7 > 4
+
+	\radon\tests/test_ipynb.py:116:12:
+
+#520 Error: WPS432 Found magic number: 63
+
+	\radon\tests/test_ipynb.py:116:34:
+
+#521 Error: WPS432 Found magic number: 37
+
+	\radon\tests/test_ipynb.py:117:35:
+	\radon\tests/test_ipynb.py:118:35:
+
+#522 Error: WPS204 Found overused expression: out[cell_target]; used 7 > 4
+
+	\radon\tests/test_ipynb.py:135:12:
+
+#523 Error: WPS432 Found magic number: 52
+
+	\radon\tests/test_ipynb.py:135:39:
+
+#524 Error: WPS432 Found magic number: 27
+
+	\radon\tests/test_ipynb.py:136:40:
+	\radon\tests/test_ipynb.py:137:40:
+
+#525 Error: F403 'from radon.metrics import *' used; unable to detect undefined names
+
+	\radon\tests/test_other_metrics.py:5:1:
+
+#526 Error: F405 'mi_compute' may be undefined, or defined from star imports: radon.metrics
+
+	\radon\tests/test_other_metrics.py:33:18:
+
+#527 Error: F405 'mi_rank' may be undefined, or defined from star imports: radon.metrics
+
+	\radon\tests/test_other_metrics.py:41:12:
+
+#528 Error: WPS339 Found number with meaningless zeros: 0.00900000000000000000
+
+	\radon\tests/test_other_metrics.py:90:25:
+
+#529 Error: F405 'h_visit' may be undefined, or defined from star imports: radon.metrics
+
+	\radon\tests/test_other_metrics.py:103:25:
+
+#530 Error: WPS221 Found line with high Jones Complexity: 20 > 14
+
+	\radon\tests/test_other_metrics.py:105:13:
+
+#531 Error: WPS434 Found reassigning variable to itself: expected
+
+	\radon\tests/test_other_metrics.py:167:5:
+
+#532 Error: WPS434 Found reassigning variable to itself: count_multi
+
+	\radon\tests/test_other_metrics.py:168:5:
+
+#533 Error: F405 'mi_visit' may be undefined, or defined from star imports: radon.metrics
+
+	\radon\tests/test_other_metrics.py:169:12:
+
+#534 Error: F403 'from radon.raw import *' used; unable to detect undefined names
+
+	\radon\tests/test_raw.py:5:1:
+
+#535 Error: F405 '_generate' may be undefined, or defined from star imports: radon.raw
+
+	\radon\tests/test_raw.py:47:12:
+	\radon\tests/test_raw.py:188:12:
+
+#536 Error: F405 '_find' may be undefined, or defined from star imports: radon.raw
+
+	\radon\tests/test_raw.py:50:13:
+	\radon\tests/test_raw.py:52:16:
+
+#537 Error: F405 'OP' may be undefined, or defined from star imports: radon.raw
+
+	\radon\tests/test_raw.py:50:25:
+	\radon\tests/test_raw.py:52:28:
+
+#538 Error: F405 '_logical' may be undefined, or defined from star imports: radon.raw
+
+	\radon\tests/test_raw.py:189:12:
+
+#539 Error: E501 line too long (83 > 79 characters)
+
+	\radon\tests/test_raw.py:411:80:
+
+#540 Error: WPS360 Found an unnecessary use of a raw string: '''
+
+	\radon\tests/test_raw.py:433:9:
+	\radon\tests/test_raw.py:440:9:
+
+#541 Error:    def function():
+
+	
+	
+
+#542 Error:        pass; pass
+
+	
+
+#543 Error:    '''
+
+	
+	
+
+#544 Error:        """ doc string """; pass
+
+	
+
+#545 Error: E722 do not use bare 'except'
+
+	\radon\tests/test_raw.py:455:5:
+
+#546 Error: B001 Do not use bare `except:`, it also catches unexpected events like memory errors, interrupts, system exit, and so on.  Prefer `except Exception:`.  If you're sure what you're doing, be explicit and write `except BaseException:`.
+
+	\radon\tests/test_raw.py:455:5:
+
+#547 Error: F405 'analyze' may be undefined, or defined from star imports: radon.raw
+
+	\radon\tests/test_raw.py:457:13:
+	\radon\tests/test_raw.py:459:18:
+
+#548 Error: F405 'Module' may be undefined, or defined from star imports: radon.raw
+
+	\radon\tests/test_raw.py:460:26:
+
+#549 Error: WPS110 Found wrong variable name: Foo
+
+	\radon\tests\data/no_encoding.py:1:1:
+
+#550 Error: WPS604 Found incorrect node inside `class` body
+
+	\radon\tests\data/no_encoding.py:2:5:
+
+#551 Error: F841 local variable 'a' is assigned to but never used
+
+	\radon\tests\data/__init__.py:5:5:
+

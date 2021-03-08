@@ -33,6 +33,9 @@
 #7 File: ./main.py
 	Function: analyze_cohesion
 	Volume: 28.529325012980813, Difficulty: 1.5, Bugs: 0.009509775004326938
+#8 File: ./main.py
+	Function: analyze_wemake_styleguide
+	Volume: 15.509775004326936, Difficulty: 1.0, Bugs: 0.005169925001442312
 
 ================
 ======== Classes with cohesion < 66.66%
@@ -43,4 +46,535 @@
 	Cohesion: 0.0%
 #2 File: ./main.py
 	Class: CodeAnalyzer
-	Cohesion: 34.38%
+	Cohesion: 33.33%
+
+================
+======== flake8 errors
+================
+
+#1 Error: WPS226 Found string constant over-use: ================ > 3
+
+	./main.py:0:1:
+
+#2 Error: WPS226 Found string constant over-use: # > 3
+
+	./main.py:0:1:
+
+#3 Error: WPS226 Found string constant over-use:  File:  > 3
+
+	./main.py:0:1:
+
+#4 Error: D100 Missing docstring in public module
+
+	./main.py:1:1:
+
+#5 Error: I003 isort expected 1 blank line in imports, found 0
+
+	./main.py:3:1:
+	./main.py:12:1:
+
+#6 Error: F401 'radon.cli.harvest.RawHarvester' imported but unused
+
+	./main.py:4:1:
+
+#7 Error: I001 isort found an import in the wrong position
+
+	./main.py:4:1:
+	./main.py:6:1:
+	./main.py:7:1:
+	./main.py:8:1:
+	./main.py:9:1:
+	./main.py:10:1:
+	./main.py:11:1:
+
+#8 Error: I005 isort found an unexpected missing import
+
+	./main.py:5:1:
+	./main.py:5:1:
+
+#9 Error: F401 'radon.complexity.cc_rank' imported but unused
+
+	./main.py:6:1:
+
+#10 Error: E800 Found commented out code
+
+	./main.py:12:2:
+
+#11 Error: E302 expected 2 blank lines, found 1
+
+	./main.py:22:1:
+
+#12 Error: D103 Missing docstring in public function
+
+	./main.py:22:1:
+	./main.py:26:1:
+	./main.py:233:1:
+
+#13 Error: WPS110 Found wrong variable name: file
+
+	./main.py:22:20:
+	./main.py:36:13:
+	./main.py:82:13:
+
+#14 Error: Q000 Remove bad quotes
+
+	./main.py:23:44:
+	./main.py:38:40:
+	./main.py:46:17:
+	./main.py:65:33:
+	./main.py:66:29:
+	./main.py:84:25:
+	./main.py:86:58:
+	./main.py:86:72:
+	./main.py:88:18:
+	./main.py:90:22:
+	./main.py:91:22:
+	./main.py:92:22:
+	./main.py:94:22:
+	./main.py:95:22:
+	./main.py:96:22:
+	./main.py:97:22:
+	./main.py:99:26:
+	./main.py:117:23:
+	./main.py:122:18:
+	./main.py:124:22:
+	./main.py:125:22:
+	./main.py:126:22:
+	./main.py:128:22:
+	./main.py:129:22:
+	./main.py:130:22:
+	./main.py:131:22:
+	./main.py:133:26:
+	./main.py:145:30:
+	./main.py:155:18:
+	./main.py:157:22:
+	./main.py:158:22:
+	./main.py:159:22:
+	./main.py:160:22:
+	./main.py:162:22:
+	./main.py:163:22:
+	./main.py:164:22:
+	./main.py:165:22:
+	./main.py:166:22:
+	./main.py:168:26:
+	./main.py:179:26:
+	./main.py:180:86:
+	./main.py:182:18:
+	./main.py:184:22:
+	./main.py:185:22:
+	./main.py:186:22:
+	./main.py:188:22:
+	./main.py:189:22:
+	./main.py:190:22:
+	./main.py:191:22:
+	./main.py:193:26:
+	./main.py:200:35:
+	./main.py:202:50:
+	./main.py:210:18:
+	./main.py:212:22:
+	./main.py:213:22:
+	./main.py:214:22:
+	./main.py:216:22:
+	./main.py:217:22:
+	./main.py:218:22:
+	./main.py:219:22:
+	./main.py:221:26:
+	./main.py:223:30:
+	./main.py:224:26:
+	./main.py:235:52:
+	./main.py:236:14:
+	./main.py:238:14:
+	./main.py:249:16:
+
+#15 Error: WPS210 Found too many local variables: 7 > 5
+
+	./main.py:26:1:
+
+#16 Error: WPS111 Found too short name: i < 2
+
+	./main.py:31:9:
+	./main.py:98:17:
+	./main.py:132:17:
+	./main.py:167:17:
+	./main.py:192:17:
+	./main.py:220:17:
+
+#17 Error: B007 Loop control variable 'dirs' not used within the loop body. If this is intended, start the name with an underscore.
+
+	./main.py:35:18:
+
+#18 Error: WPS336 Found explicit string concatenation
+
+	./main.py:38:40:
+	./main.py:66:29:
+
+#19 Error: D101 Missing docstring in public class
+
+	./main.py:43:1:
+	./main.py:49:1:
+
+#20 Error: H601 class has low (0.00%) cohesion
+
+	./main.py:43:1:
+
+#21 Error: D102 Missing docstring in public method
+
+	./main.py:44:1:
+	./main.py:56:1:
+	./main.py:61:1:
+	./main.py:68:1:
+	./main.py:101:1:
+	./main.py:135:1:
+	./main.py:170:1:
+	./main.py:195:1:
+	./main.py:226:1:
+
+#22 Error: WPS110 Found wrong variable name: data
+
+	./main.py:45:9:
+
+#23 Error: H601 class has low (33.33%) cohesion
+
+	./main.py:49:1:
+
+#24 Error: WPS306 Found class without a base class: CodeAnalyzer
+
+	./main.py:49:1:
+
+#25 Error: WPS214 Found too many methods: 9 > 7
+
+	./main.py:49:1:
+
+#26 Error: D107 Missing docstring in __init__
+
+	./main.py:50:1:
+
+#27 Error: WPS111 Found too short name: s < 2
+
+	./main.py:61:19:
+
+#28 Error: WPS421 Found wrong function call: print
+
+	./main.py:63:13:
+
+#29 Error: WPS111 Found too short name: f < 2
+
+	./main.py:65:41:
+
+#30 Error: W293 blank line contains whitespace
+
+	./main.py:67:1:
+	./main.py:80:1:
+	./main.py:121:1:
+	./main.py:150:1:
+	./main.py:154:1:
+	./main.py:181:1:
+	./main.py:197:1:
+	./main.py:209:1:
+	./main.py:231:1:
+	./main.py:232:1:
+	./main.py:247:1:
+
+#31 Error: WPS210 Found too many local variables: 10 > 5
+
+	./main.py:68:5:
+
+#32 Error: WPS213 Found too many expressions: 10 > 9
+
+	./main.py:68:5:
+	./main.py:101:5:
+	./main.py:170:5:
+
+#33 Error: WPS110 Found wrong variable name: results
+
+	./main.py:79:9:
+	./main.py:113:9:
+	./main.py:141:9:
+
+#34 Error: WPS437 Found protected attribute usage: _to_dicts
+
+	./main.py:79:19:
+
+#35 Error: WPS318 Found extra indentation
+
+	./main.py:80:17:
+
+#36 Error: WPS528 Found implicit `.items()` usage
+
+	./main.py:82:9:
+
+#37 Error: E501 line too long (86 > 79 characters)
+
+	./main.py:86:80:
+
+#38 Error: WPS507 Found useless `len()` compare
+
+	./main.py:89:12:
+	./main.py:123:12:
+	./main.py:156:12:
+	./main.py:183:12:
+	./main.py:211:12:
+
+#39 Error: F541 f-string is missing placeholders
+
+	./main.py:90:22:
+	./main.py:92:22:
+	./main.py:94:22:
+	./main.py:96:22:
+	./main.py:124:22:
+	./main.py:126:22:
+	./main.py:128:22:
+	./main.py:130:22:
+	./main.py:157:22:
+	./main.py:158:22:
+	./main.py:160:22:
+	./main.py:162:22:
+	./main.py:163:22:
+	./main.py:165:22:
+	./main.py:184:22:
+	./main.py:186:22:
+	./main.py:188:22:
+	./main.py:190:22:
+	./main.py:212:22:
+	./main.py:213:22:
+	./main.py:214:22:
+	./main.py:216:22:
+	./main.py:217:22:
+	./main.py:218:22:
+	./main.py:224:26:
+
+#40 Error: WPS237 Found a too complex `f` string
+
+	./main.py:90:22:
+	./main.py:92:22:
+	./main.py:94:22:
+	./main.py:96:22:
+	./main.py:99:26:
+	./main.py:124:22:
+	./main.py:126:22:
+	./main.py:128:22:
+	./main.py:130:22:
+	./main.py:133:26:
+	./main.py:157:22:
+	./main.py:158:22:
+	./main.py:160:22:
+	./main.py:162:22:
+	./main.py:163:22:
+	./main.py:165:22:
+	./main.py:168:26:
+	./main.py:184:22:
+	./main.py:186:22:
+	./main.py:188:22:
+	./main.py:190:22:
+	./main.py:193:26:
+	./main.py:212:22:
+	./main.py:213:22:
+	./main.py:214:22:
+	./main.py:216:22:
+	./main.py:217:22:
+	./main.py:218:22:
+	./main.py:221:26:
+	./main.py:224:26:
+
+#41 Error: WPS305 Found `f` string
+
+	./main.py:90:22:
+	./main.py:91:22:
+	./main.py:92:22:
+	./main.py:94:22:
+	./main.py:95:22:
+	./main.py:96:22:
+	./main.py:99:26:
+	./main.py:124:22:
+	./main.py:125:22:
+	./main.py:126:22:
+	./main.py:128:22:
+	./main.py:129:22:
+	./main.py:130:22:
+	./main.py:133:26:
+	./main.py:157:22:
+	./main.py:158:22:
+	./main.py:159:22:
+	./main.py:160:22:
+	./main.py:162:22:
+	./main.py:163:22:
+	./main.py:164:22:
+	./main.py:165:22:
+	./main.py:168:26:
+	./main.py:184:22:
+	./main.py:185:22:
+	./main.py:186:22:
+	./main.py:188:22:
+	./main.py:189:22:
+	./main.py:190:22:
+	./main.py:193:26:
+	./main.py:200:35:
+	./main.py:212:22:
+	./main.py:213:22:
+	./main.py:214:22:
+	./main.py:216:22:
+	./main.py:217:22:
+	./main.py:218:22:
+	./main.py:221:26:
+	./main.py:223:30:
+	./main.py:224:26:
+
+#42 Error: E501 line too long (94 > 79 characters)
+
+	./main.py:91:80:
+
+#43 Error: E501 line too long (91 > 79 characters)
+
+	./main.py:95:80:
+	./main.py:153:80:
+	./main.py:158:80:
+
+#44 Error: WPS440 Found block variables overlap: filename
+
+	./main.py:98:13:
+
+#45 Error: E501 line too long (80 > 79 characters)
+
+	./main.py:98:80:
+
+#46 Error: WPS221 Found line with high Jones Complexity: 19 > 14
+
+	./main.py:99:17:
+
+#47 Error: E501 line too long (106 > 79 characters)
+
+	./main.py:99:80:
+
+#48 Error: WPS210 Found too many local variables: 8 > 5
+
+	./main.py:101:5:
+	./main.py:170:5:
+	./main.py:195:5:
+
+#49 Error: WPS111 Found too short name: r < 2
+
+	./main.py:116:13:
+	./main.py:144:13:
+
+#50 Error: E501 line too long (85 > 79 characters)
+
+	./main.py:125:80:
+	./main.py:133:80:
+
+#51 Error: E501 line too long (82 > 79 characters)
+
+	./main.py:129:80:
+
+#52 Error: WPS440 Found block variables overlap: filename, mi
+
+	./main.py:132:13:
+
+#53 Error: WPS221 Found line with high Jones Complexity: 16 > 14
+
+	./main.py:133:17:
+
+#54 Error: WPS210 Found too many local variables: 12 > 5
+
+	./main.py:135:5:
+
+#55 Error: WPS213 Found too many expressions: 12 > 9
+
+	./main.py:135:5:
+	./main.py:195:5:
+
+#56 Error: E501 line too long (116 > 79 characters)
+
+	./main.py:151:80:
+
+#57 Error: E501 line too long (132 > 79 characters)
+
+	./main.py:159:80:
+	./main.py:164:80:
+
+#58 Error: E501 line too long (88 > 79 characters)
+
+	./main.py:163:80:
+
+#59 Error: WPS440 Found block variables overlap: funcname, difficulty, filename, bugs, volume
+
+	./main.py:167:13:
+
+#60 Error: E501 line too long (97 > 79 characters)
+
+	./main.py:167:80:
+
+#61 Error: WPS221 Found line with high Jones Complexity: 25 > 14
+
+	./main.py:168:17:
+
+#62 Error: E501 line too long (138 > 79 characters)
+
+	./main.py:168:80:
+
+#63 Error: E501 line too long (98 > 79 characters)
+
+	./main.py:180:80:
+
+#64 Error: E501 line too long (81 > 79 characters)
+
+	./main.py:185:80:
+
+#65 Error: WPS440 Found block variables overlap: class_name, filename
+
+	./main.py:192:13:
+
+#66 Error: WPS221 Found line with high Jones Complexity: 20 > 14
+
+	./main.py:193:17:
+
+#67 Error: E501 line too long (102 > 79 characters)
+
+	./main.py:193:80:
+
+#68 Error: WPS231 Found function with too much cognitive complexity: 14 > 12
+
+	./main.py:195:5:
+
+#69 Error: WPS522 Found implicit primitive in a form of `lambda`
+
+	./main.py:196:30:
+
+#70 Error: WPS229 Found too long ``try`` body length: 2 > 1
+
+	./main.py:199:13:
+
+#71 Error: S605 Starting a process with a shell, possible injection detected, security issue.
+
+	./main.py:200:1:
+
+#72 Error: S110 Try, Except, Pass detected.
+
+	./main.py:207:1:
+
+#73 Error: WPS420 Found wrong keyword: pass
+
+	./main.py:208:17:
+
+#74 Error: WPS440 Found block variables overlap: positions, error
+
+	./main.py:220:13:
+
+#75 Error: WPS440 Found block variables overlap: position
+
+	./main.py:222:17:
+
+#76 Error: WPS317 Found incorrect multi-line parameters
+
+	./main.py:235:5:
+	./main.py:237:5:
+
+#77 Error: E128 continuation line under-indented for visual indent
+
+	./main.py:236:9:
+	./main.py:238:9:
+
+#78 Error: WPS319 Found bracket in wrong position
+
+	./main.py:236:43:
+	./main.py:238:27:
+

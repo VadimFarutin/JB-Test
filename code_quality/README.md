@@ -1,12 +1,13 @@
 # Code Quality
 
-Script uses [radon](https://github.com/rubik/radon) and [cohesion](https://github.com/mschwager/cohesion) libraries to analyze Python code.  
+Script uses [radon](https://github.com/rubik/radon), [cohesion](https://github.com/mschwager/cohesion) and `flake8` with `wemake-python-styleguide` plugin to analyze Python code.  
 Calculated metrics: Cyclomatic Complexity, Maintainability Index, Halstead metrics (volume, difficulty, bugs), Cohesion.
 
 ## Install dependencies
 ```
 pip install radon
 python -m pip install cohesion
+pip install wemake-python-styleguide
 ```
 
 ## Usage
