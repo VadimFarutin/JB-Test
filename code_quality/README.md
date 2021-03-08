@@ -14,6 +14,7 @@ python ./main.py -p INPUT_PATH -o OUTPUT_FILE
 Results for one file and Python project are saved in `output_main.txt` and `output_radon.txt`.
 
 ### Download projects to test on
+I have evaluated script on radon project itself.
 ```
 mkdir repos
 cd repos
