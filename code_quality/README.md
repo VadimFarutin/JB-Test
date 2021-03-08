@@ -3,6 +3,12 @@
 Script uses [radon](https://github.com/rubik/radon) and [cohesion](https://github.com/mschwager/cohesion) libraries to analyze Python code.  
 Calculated metrics: Cyclomatic Complexity, Maintainability Index, Halstead metrics (volume, difficulty, bugs), Cohesion.
 
+## Install dependencies
+```
+pip install radon
+python -m pip install cohesion
+```
+
 ## Usage
 ```
 python ./main.py -p INPUT_PATH -o OUTPUT_FILE
