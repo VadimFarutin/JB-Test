@@ -262,3 +262,44 @@
 #78 File: \radon\tests/test_raw.py
 	Function: test_analyze
 	Volume: 53.77443751081735, Difficulty: 1.0, Bugs: 0.017924812503605784
+
+================
+======== Classes with cohesion < 66.66%
+================
+
+#1 File: \radon/visitors.py
+	Class: Function
+	Cohesion: 33.33%
+#2 File: \radon/visitors.py
+	Class: Class
+	Cohesion: 37.5%
+#3 File: \radon/visitors.py
+	Class: CodeVisitor
+	Cohesion: 0.0%
+#4 File: \radon/visitors.py
+	Class: ComplexityVisitor
+	Cohesion: 22.31%
+#5 File: \radon/visitors.py
+	Class: HalsteadVisitor
+	Cohesion: 25.97%
+#6 File: \radon\cli/harvest.py
+	Class: Harvester
+	Cohesion: 20.0%
+#7 File: \radon\cli/harvest.py
+	Class: CCHarvester
+	Cohesion: 42.86%
+#8 File: \radon\cli/harvest.py
+	Class: RawHarvester
+	Cohesion: 33.33%
+#9 File: \radon\cli/harvest.py
+	Class: MIHarvester
+	Cohesion: 38.89%
+#10 File: \radon\cli/harvest.py
+	Class: HCHarvester
+	Cohesion: 40.0%
+#11 File: \radon\contrib/flake8.py
+	Class: Flake8Checker
+	Cohesion: 18.75%
+#12 File: \radon\tests\data/no_encoding.py
+	Class: Foo
+	Cohesion: 0.0%

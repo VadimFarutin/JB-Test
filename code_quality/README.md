@@ -1,7 +1,7 @@
 # Code Quality
 
-Script uses [radon](https://github.com/rubik/radon) library to analyze Python code.  
-Calculated metrics: Cyclomatic Complexity, Maintainability Index, Halstead metrics (volume, difficulty, bugs).
+Script uses [radon](https://github.com/rubik/radon) and [cohesion](https://github.com/mschwager/cohesion) libraries to analyze Python code.  
+Calculated metrics: Cyclomatic Complexity, Maintainability Index, Halstead metrics (volume, difficulty, bugs), Cohesion.
 
 ## Usage
 ```

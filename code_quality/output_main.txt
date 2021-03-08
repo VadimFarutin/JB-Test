@@ -30,3 +30,17 @@
 #6 File: ./main.py
 	Function: analyze_halstead
 	Volume: 77.66179398375645, Difficulty: 2.0, Bugs: 0.02588726466125215
+#7 File: ./main.py
+	Function: analyze_cohesion
+	Volume: 28.529325012980813, Difficulty: 1.5, Bugs: 0.009509775004326938
+
+================
+======== Classes with cohesion < 66.66%
+================
+
+#1 File: ./main.py
+	Class: HalsteadHarvester
+	Cohesion: 0.0%
+#2 File: ./main.py
+	Class: CodeAnalyzer
+	Cohesion: 34.38%
