@@ -1,0 +1,32 @@
+
+================
+======== No functions with Cyclomatic Complexity > 9
+================
+
+================
+======== No files with Maintainability Index < 20
+================
+
+================
+======== Functions with Halstead metrics grater than tresholds:
+======== Volume > 10, Difficulty > 10, Bugs > 1
+================
+
+#1 File: ./main.py
+	Function: is_python_file
+	Volume: 36.541209043760986, Difficulty: 2.3333333333333335, Bugs: 0.012180403014586996
+#2 File: ./main.py
+	Function: list_files
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#3 File: ./main.py
+	Function: log
+	Volume: 15.509775004326936, Difficulty: 1.0, Bugs: 0.005169925001442312
+#4 File: ./main.py
+	Function: analyze_complexity
+	Volume: 28.529325012980813, Difficulty: 1.5, Bugs: 0.009509775004326938
+#5 File: ./main.py
+	Function: analyze_mi
+	Volume: 28.529325012980813, Difficulty: 1.5, Bugs: 0.009509775004326938
+#6 File: ./main.py
+	Function: analyze_halstead
+	Volume: 77.66179398375645, Difficulty: 2.0, Bugs: 0.02588726466125215

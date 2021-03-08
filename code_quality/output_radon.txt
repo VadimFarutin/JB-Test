@@ -1,0 +1,264 @@
+
+================
+======== Functions with Cyclomatic Complexity > 9
+================
+
+#1 File: \radon/raw.py
+	Function: analyze
+	Complexity: 15
+#2 File: \radon\cli/harvest.py
+	Function: to_terminal
+	Complexity: 12
+#3 File: \radon\cli/harvest.py
+	Function: run
+	Complexity: 10
+#4 File: \radon\cli/tools.py
+	Function: iter_filenames
+	Complexity: 11
+
+================
+======== Files with Maintainability Index < 20
+================
+
+#1 File: \radon\cli/harvest.py
+	Maintainability Index: 19.99529302419004
+
+================
+======== Functions with Halstead metrics grater than tresholds:
+======== Volume > 10, Difficulty > 10, Bugs > 1
+================
+
+#1 File: \radon/complexity.py
+	Function: cc_rank
+	Volume: 84.0, Difficulty: 3.1818181818181817, Bugs: 0.028
+#2 File: \radon/complexity.py
+	Function: average_complexity
+	Volume: 15.509775004326936, Difficulty: 1.0, Bugs: 0.005169925001442312
+#3 File: \radon/complexity.py
+	Function: add_inner_blocks
+	Volume: 12.0, Difficulty: 0.6666666666666666, Bugs: 0.004
+#4 File: \radon/metrics.py
+	Function: halstead_visitor_report
+	Volume: 208.9735285398626, Difficulty: 3.75, Bugs: 0.06965784284662087
+#5 File: \radon/metrics.py
+	Function: mi_compute
+	Volume: 173.06477719407374, Difficulty: 2.608695652173913, Bugs: 0.057688259064691244
+#6 File: \radon/metrics.py
+	Function: mi_parameters
+	Volume: 43.01955000865388, Difficulty: 2.0, Bugs: 0.014339850002884626
+#7 File: \radon/metrics.py
+	Function: mi_rank
+	Volume: 66.60791492653966, Difficulty: 1.8, Bugs: 0.022202638308846556
+#8 File: \radon/raw.py
+	Function: _find
+	Volume: 27.0, Difficulty: 1.0, Bugs: 0.009
+#9 File: \radon/raw.py
+	Function: _split_tokens
+	Volume: 11.60964047443681, Difficulty: 1.0, Bugs: 0.0038698801581456034
+#10 File: \radon/raw.py
+	Function: _get_all_tokens
+	Volume: 36.541209043760986, Difficulty: 1.5, Bugs: 0.012180403014586996
+#11 File: \radon/raw.py
+	Function: _logical
+	Volume: 34.86917501586544, Difficulty: 1.75, Bugs: 0.011623058338621813
+#12 File: \radon/raw.py
+	Function: is_single_token
+	Volume: 28.529325012980813, Difficulty: 1.5, Bugs: 0.009509775004326938
+#13 File: \radon/raw.py
+	Function: analyze
+	Volume: 199.03672606650858, Difficulty: 2.175, Bugs: 0.06634557535550285
+#14 File: \radon/visitors.py
+	Function: complexity
+	Volume: 36.541209043760986, Difficulty: 2.3333333333333335, Bugs: 0.012180403014586996
+#15 File: \radon/visitors.py
+	Function: total_complexity
+	Volume: 34.86917501586544, Difficulty: 1.0, Bugs: 0.011623058338621813
+#16 File: \radon/visitors.py
+	Function: generic_visit
+	Volume: 184.47733175670794, Difficulty: 3.2941176470588234, Bugs: 0.06149244391890265
+#17 File: \radon/visitors.py
+	Function: visit_Assert
+	Volume: 11.60964047443681, Difficulty: 1.0, Bugs: 0.0038698801581456034
+#18 File: \radon/visitors.py
+	Function: visit_ClassDef
+	Volume: 38.03910001730775, Difficulty: 0.5, Bugs: 0.012679700005769252
+#19 File: \radon/visitors.py
+	Function: dispatch
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#20 File: \radon/visitors.py
+	Function: visit_Compare
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#21 File: \radon/visitors.py
+	Function: visit_FunctionDef
+	Volume: 19.019550008653876, Difficulty: 2.0, Bugs: 0.006339850002884626
+#22 File: \radon\cli/harvest.py
+	Function: run
+	Volume: 28.529325012980813, Difficulty: 1.5, Bugs: 0.009509775004326938
+#23 File: \radon\cli/harvest.py
+	Function: _to_dicts
+	Volume: 22.458839376460833, Difficulty: 1.0, Bugs: 0.007486279792153611
+#24 File: \radon\cli/harvest.py
+	Function: to_terminal
+	Volume: 68.53238859703687, Difficulty: 3.3333333333333335, Bugs: 0.022844129532345624
+#25 File: \radon\cli/harvest.py
+	Function: to_terminal
+	Volume: 228.2346001038465, Difficulty: 2.782608695652174, Bugs: 0.0760782000346155
+#26 File: \radon\cli/harvest.py
+	Function: filtered_results
+	Volume: 36.541209043760986, Difficulty: 1.5, Bugs: 0.012180403014586996
+#27 File: \radon\cli/harvest.py
+	Function: hal_report_to_terminal
+	Volume: 57.058650025961626, Difficulty: 6.0, Bugs: 0.019019550008653876
+#28 File: \radon\cli/tools.py
+	Function: _get_normal_name
+	Volume: 39.863137138648355, Difficulty: 1.7142857142857142, Bugs: 0.013287712379549451
+#29 File: \radon\cli/tools.py
+	Function: detect_encoding
+	Volume: 106.27403387250884, Difficulty: 3.3333333333333335, Bugs: 0.03542467795750295
+#30 File: \radon\cli/tools.py
+	Function: _is_python_file
+	Volume: 62.5102495297363, Difficulty: 2.0, Bugs: 0.020836749843245433
+#31 File: \radon\cli/tools.py
+	Function: iter_filenames
+	Volume: 51.80615605397529, Difficulty: 2.0, Bugs: 0.01726871868465843
+#32 File: \radon\cli/tools.py
+	Function: explore_directories
+	Volume: 11.60964047443681, Difficulty: 1.0, Bugs: 0.0038698801581456034
+#33 File: \radon\cli/tools.py
+	Function: cc_to_dict
+	Volume: 15.509775004326936, Difficulty: 1.0, Bugs: 0.005169925001442312
+#34 File: \radon\cli/tools.py
+	Function: dict_to_md
+	Volume: 27.0, Difficulty: 1.8, Bugs: 0.009
+#35 File: \radon\cli/tools.py
+	Function: dict_to_codeclimate_issues
+	Volume: 28.529325012980813, Difficulty: 1.5, Bugs: 0.009509775004326938
+#36 File: \radon\cli/tools.py
+	Function: cc_to_terminal
+	Volume: 53.88872502451932, Difficulty: 1.5714285714285714, Bugs: 0.017962908341506437
+#37 File: \radon\cli/tools.py
+	Function: _format_line
+	Volume: 22.458839376460833, Difficulty: 1.0, Bugs: 0.007486279792153611
+#38 File: \radon\cli/tools.py
+	Function: get_remediation_points
+	Volume: 53.77443751081735, Difficulty: 3.5714285714285716, Bugs: 0.017924812503605784
+#39 File: \radon\cli/__init__.py
+	Function: get_value
+	Volume: 20.67970000576925, Difficulty: 1.25, Bugs: 0.006893233335256416
+#40 File: \radon\cli/__init__.py
+	Function: file_config
+	Volume: 15.509775004326936, Difficulty: 1.0, Bugs: 0.005169925001442312
+#41 File: \radon\cli/__init__.py
+	Function: from_function
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#42 File: \radon\cli/__init__.py
+	Function: log
+	Volume: 39.863137138648355, Difficulty: 1.0, Bugs: 0.013287712379549451
+#43 File: \radon\contrib/flake8.py
+	Function: run
+	Volume: 36.541209043760986, Difficulty: 2.3333333333333335, Bugs: 0.012180403014586996
+#44 File: \radon\tests/test_cli.py
+	Function: test_config_base_behavior
+	Volume: 25.26619429851844, Difficulty: 0.5, Bugs: 0.008422064766172813
+#45 File: \radon\tests/test_cli.py
+	Function: test_config_str
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#46 File: \radon\tests/test_cli.py
+	Function: test_config_eq
+	Volume: 27.0, Difficulty: 1.0, Bugs: 0.009
+#47 File: \radon\tests/test_cli.py
+	Function: test_config_for
+	Volume: 25.26619429851844, Difficulty: 0.5, Bugs: 0.008422064766172813
+#48 File: \radon\tests/test_cli.py
+	Function: test_config_converts_types
+	Volume: 38.03910001730775, Difficulty: 0.5, Bugs: 0.012679700005769252
+#49 File: \radon\tests/test_cli.py
+	Function: test_encoding
+	Volume: 24.0, Difficulty: 1.5, Bugs: 0.008
+#50 File: \radon\tests/test_cli_harvest.py
+	Function: test_base_run
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#51 File: \radon\tests/test_cli_harvest.py
+	Function: test_base_results
+	Volume: 11.60964047443681, Difficulty: 1.0, Bugs: 0.0038698801581456034
+#52 File: \radon\tests/test_cli_harvest.py
+	Function: test_cc_to_dicts
+	Volume: 25.26619429851844, Difficulty: 0.5, Bugs: 0.008422064766172813
+#53 File: \radon\tests/test_cli_harvest.py
+	Function: test_cc_as_json_xml
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#54 File: \radon\tests/test_cli_harvest.py
+	Function: test_cc_to_terminal
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#55 File: \radon\tests/test_cli_harvest.py
+	Function: test_mi_gobble
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#56 File: \radon\tests/test_cli_harvest.py
+	Function: test_mi_to_terminal
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#57 File: \radon\tests/test_cli_tools.py
+	Function: test_open
+	Volume: 28.529325012980813, Difficulty: 1.5, Bugs: 0.009509775004326938
+#58 File: \radon\tests/test_cli_tools.py
+	Function: test_cc_to_terminal
+	Volume: 129.65784284662087, Difficulty: 1.6764705882352942, Bugs: 0.043219280948873624
+#59 File: \radon\tests/test_complexity_utils.py
+	Function: _compute_cc_rank
+	Volume: 103.61231210795059, Difficulty: 1.5454545454545454, Bugs: 0.03453743736931686
+#60 File: \radon\tests/test_complexity_utils.py
+	Function: test_rank
+	Volume: 15.509775004326936, Difficulty: 1.0, Bugs: 0.005169925001442312
+#61 File: \radon\tests/test_complexity_utils.py
+	Function: test_cc_visit
+	Volume: 41.51317942364757, Difficulty: 1.5, Bugs: 0.01383772647454919
+#62 File: \radon\tests/test_complexity_utils.py
+	Function: test_flake8_checker
+	Volume: 50.18947501009619, Difficulty: 1.5, Bugs: 0.016729825003365395
+#63 File: \radon\tests/test_complexity_visitor.py
+	Function: test_visitor_single_functions
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#64 File: \radon\tests/test_complexity_visitor.py
+	Function: test_visitor_functions
+	Volume: 13.931568569324174, Difficulty: 0.5, Bugs: 0.004643856189774725
+#65 File: \radon\tests/test_complexity_visitor.py
+	Function: test_visitor_classes
+	Volume: 38.03910001730775, Difficulty: 0.5, Bugs: 0.012679700005769252
+#66 File: \radon\tests/test_complexity_visitor.py
+	Function: test_visitor_module
+	Volume: 18.0, Difficulty: 1.0, Bugs: 0.006
+#67 File: \radon\tests/test_complexity_visitor.py
+	Function: test_visitor_closures
+	Volume: 72.64806399138325, Difficulty: 1.4444444444444444, Bugs: 0.024216021330461083
+#68 File: \radon\tests/test_complexity_visitor.py
+	Function: test_visitor_containers
+	Volume: 38.03910001730775, Difficulty: 0.5, Bugs: 0.012679700005769252
+#69 File: \radon\tests/test_ipynb.py
+	Function: test_harvestor_yields_ipynb
+	Volume: 15.509775004326936, Difficulty: 1.0, Bugs: 0.005169925001442312
+#70 File: \radon\tests/test_ipynb.py
+	Function: test_ipynb
+	Volume: 11.60964047443681, Difficulty: 1.0, Bugs: 0.0038698801581456034
+#71 File: \radon\tests/test_ipynb.py
+	Function: test_ipynb_with_cells
+	Volume: 11.60964047443681, Difficulty: 1.0, Bugs: 0.0038698801581456034
+#72 File: \radon\tests/test_ipynb.py
+	Function: test_raw_ipynb
+	Volume: 114.6940428629768, Difficulty: 1.0588235294117647, Bugs: 0.03823134762099227
+#73 File: \radon\tests/test_ipynb.py
+	Function: test_raw_ipynb_cells
+	Volume: 129.65784284662087, Difficulty: 1.7647058823529411, Bugs: 0.043219280948873624
+#74 File: \radon\tests/test_other_metrics.py
+	Function: _compute_mi_rank
+	Volume: 42.11032383086406, Difficulty: 1.8, Bugs: 0.01403677461028802
+#75 File: \radon\tests/test_other_metrics.py
+	Function: test_mi_compute
+	Volume: 15.509775004326936, Difficulty: 1.0, Bugs: 0.005169925001442312
+#76 File: \radon\tests/test_other_metrics.py
+	Function: test_h_visit
+	Volume: 79.95445336320968, Difficulty: 2.8, Bugs: 0.026651484454403226
+#77 File: \radon\tests/test_raw.py
+	Function: test_find
+	Volume: 13.931568569324174, Difficulty: 1.3333333333333333, Bugs: 0.004643856189774725
+#78 File: \radon\tests/test_raw.py
+	Function: test_analyze
+	Volume: 53.77443751081735, Difficulty: 1.0, Bugs: 0.017924812503605784
